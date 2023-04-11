@@ -9,10 +9,13 @@ namespace Oishi.Data.Models.Database
     {
         [Key]
         public int UserAccountId { get; set; }
+
         [StringLength(128)]
         public string PasswordHash { get; set; }
+
         [StringLength(128)]
         public string ConfirmationToken { get; set; }
+
         [StringLength(128)]
         public string? RecoveryToken { get; set; }
 

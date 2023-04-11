@@ -26,12 +26,10 @@ namespace Oishi.Data.Models.Database
 
         [Column(TypeName = "date")]
         public DateTime? BirthDate { get; set; }
-
         public DateTime? LastLogin { get; set; }
 
         [StringLength(255)]
         public string? ImageUrl { get; set; }
-
         public DateTime DateCreated { get; set; }
 
         public Enums.UserAccountStatus UserAccountStatus { get; set; }
@@ -42,9 +40,7 @@ namespace Oishi.Data.Models.Database
 
         public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
         public UserInternalLogin? UserInternalLogin { get; set; }
-
         public Profile Profile { get; set; }
-
         public EmailValidationStatus EmailValidationStatus { get; set; }
         public ICollection<Advertisement> Advertisements { get; set; }
 

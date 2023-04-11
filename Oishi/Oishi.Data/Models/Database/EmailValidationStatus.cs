@@ -12,9 +12,7 @@ namespace Oishi.Data.Models.Database
     {
         [Key]
         public int Id { get; set; }
-
-        [Column(TypeName = "bit")] //??
-        public int IsValid { get; set; }
+        public bool IsValid { get; set; }
 
         public ICollection<UserAccount> UserAccounts { get; set; }
     }

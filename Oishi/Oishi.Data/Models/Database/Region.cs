@@ -16,7 +16,8 @@ namespace Oishi.Data.Models.Database
         public int Id { get; set; }
 
         [StringLength(48)]
-       public string Name { get; set; }
+        public string Name { get; set; }
+
 
         public ICollection<MunicipalityOrCity> MunicipalityOrCities { get; set; }
 

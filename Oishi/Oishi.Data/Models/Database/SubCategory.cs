@@ -17,10 +17,11 @@ namespace Oishi.Data.Models.Database
 
         [StringLength(48)]
         public string Description { get; set; }
+
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; } 
 
+        public Category Category { get; set; } 
         public ICollection<Advertisement> Advertisements { get; set; }
 
     }

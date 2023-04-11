@@ -29,12 +29,11 @@ namespace Oishi.Data.Models.Database
         [Column(TypeName = "date")]
         public DateTime EndDate { get; set; }
 
-        [Column(TypeName = "nvarchar(1000)")] //??
+        [StringLength(1000)]
         public string Description { get; set; }
 
         [Column(TypeName = "decimal(7,2)")]
         public decimal Price { get; set; }
-
         public DateTime LastUpdateDate { get; set; }
 
         public int UserAccountId { get; set; }
