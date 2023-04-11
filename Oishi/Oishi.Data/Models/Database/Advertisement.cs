@@ -24,7 +24,7 @@ namespace Oishi.Data.Models.Database
         public string Location { get; set; }
 
         [Column(TypeName = "date")]
-        public DateTime? StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime EndDate { get; set; }
