@@ -27,5 +27,14 @@ namespace Oishi.Data.Contexts
         public DbSet<ExternalProvider> ExternalProviders { get;set; }
         public DbSet<UserInternalLogin> UserInternalLogins { get;set; }
         public DbSet<UserExternalLogin> UserExternalLogins { get;set;}
+        public DbSet<EmailValidationStatus> EmailValidationStatuses { get;set; }
+        public DbSet<Profile> Profiles { get;set; }
+        public DbSet<Advertisement> Advertisements { get;set; }
+        public DbSet<AdvertisementStatus> AdvertisementStatuses { get;set; }
+        public DbSet<Image> Images { get;set; }
+        public DbSet<MunicipalityOrCity> MunicipalityOrCities { get;set; }
+        public DbSet<Region> Regions { get;set; }
+        public DbSet<Subcategory> Subcategories { get;set; }
+        public DbSet<Category> Categories { get;set; }
     }
 }

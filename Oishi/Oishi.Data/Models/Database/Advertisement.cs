@@ -39,13 +39,13 @@ namespace Oishi.Data.Models.Database
         public int UserAccountId { get; set; }
         public int AdvertisementStatusId { get; set; }
         public int MunicipalityOrCityId { get; set; }
-        public int SubCategoryId { get; set; }
+        public int SubcategoryId { get; set; }
 
 
         public UserAccount UserAccount { get; set; } 
         public AdvertisementStatus AdvertisementStatus { get; set; }
         public MunicipalityOrCity MunicipalityOrCity { get; set; }
-        public SubCategory SubCategory { get; set; }
+        public Subcategory Subcategory { get; set; }
 
         public ICollection<Image>? Images { get; set; }
     }

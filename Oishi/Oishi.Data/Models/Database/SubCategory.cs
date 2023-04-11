@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Oishi.Data.Models.Database
 {
-    public class SubCategory
+    public class Subcategory
     {
         [Key]
         public int Id { get; set; }

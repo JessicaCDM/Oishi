@@ -10,6 +10,6 @@ namespace Oishi.Data.Enums
     {
         Active = 1,
         Inactive = 2,
-        Blocked= 3,
+        Blocked = 3,
     }
 }
