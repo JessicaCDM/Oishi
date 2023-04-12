@@ -36,5 +36,7 @@ namespace Oishi.Data.Contexts
         public DbSet<Region> Regions { get;set; }
         public DbSet<Subcategory> Subcategories { get;set; }
         public DbSet<Category> Categories { get;set; }
+        public DbSet<AdvertisementHighlight> AdvertisementHighlights { get;set; }
+        public DbSet<HighlightType> HighlightTypes { get;set; }
     }
 }
