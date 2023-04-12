@@ -16,7 +16,7 @@ namespace Oishi.Data.Models.Database
         public int Id { get; set; }
 
         [StringLength(255)]
-        public string SrcImage { get; set; }
+        public string SourceImage { get; set; }
         public int AdvertisementId { get; set; }
 
         public Advertisement Advertisement { get; set; }

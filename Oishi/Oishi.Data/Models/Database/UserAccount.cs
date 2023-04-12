@@ -29,7 +29,7 @@ namespace Oishi.Data.Models.Database
         public DateTime? LastLogin { get; set; }
 
         [StringLength(255)]
-        public string? ImageUrl { get; set; }
+        public string? SourceImage { get; set; }
         public DateTime DateCreated { get; set; }
 
         public Enums.UserAccountStatus UserAccountStatus { get; set; }
