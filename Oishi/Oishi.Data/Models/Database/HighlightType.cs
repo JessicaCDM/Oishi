@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Oishi.Data.Models.Database
 {
-    public class AdvertisementHighlight
+    public class HighlightType
     {
         [Key]
         public int Id { get; set; }
@@ -22,6 +22,8 @@ namespace Oishi.Data.Models.Database
         public decimal Price { get; set; }
 
         public byte Days { get; set; }
+        
+        public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
 
     }
 }

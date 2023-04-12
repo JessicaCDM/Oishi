@@ -26,5 +26,8 @@ namespace Oishi.Data.Models.Database
         [Column(TypeName = "decimal(4,2)")]
         public decimal AmountTax { get; set; }
 
+        public Advertisement Advertisement { get; set; }
+        public HighlightType HighlightType { get; set; }
+
     }
 }

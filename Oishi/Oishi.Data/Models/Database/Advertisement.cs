@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -46,6 +47,7 @@ namespace Oishi.Data.Models.Database
         public AdvertisementStatus AdvertisementStatus { get; set; }
         public MunicipalityOrCity MunicipalityOrCity { get; set; }
         public Subcategory Subcategory { get; set; }
+        public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
 
         public ICollection<Image>? Images { get; set; }
     }

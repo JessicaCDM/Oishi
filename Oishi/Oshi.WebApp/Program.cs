@@ -16,10 +16,7 @@ namespace Oshi.WebApp
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<Oishi.Data.Models.Database.UserAccount>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<Oishi.Data.Contexts.DatabaseContext>();
             builder.Services.AddControllersWithViews();
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
