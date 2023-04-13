@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Oishi.Data.Models.Database;
 
 namespace Oshi.WebApp
 {

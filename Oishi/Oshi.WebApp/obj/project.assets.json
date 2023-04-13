@@ -2706,23 +2706,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jes_s\\.nuget\\packages\\": {},
+    "C:\\Users\\Sónia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oshi.WebApp\\Oshi.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oshi.WebApp\\Oshi.WebApp.csproj",
       "projectName": "Oshi.WebApp",
-      "projectPath": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oshi.WebApp\\Oshi.WebApp.csproj",
-      "packagesPath": "C:\\Users\\jes_s\\.nuget\\packages\\",
-      "outputPath": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oshi.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oshi.WebApp\\Oshi.WebApp.csproj",
+      "packagesPath": "C:\\Users\\Sónia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oshi.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jes_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sónia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2738,8 +2738,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj": {
-              "projectPath": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj"
+            "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj": {
+              "projectPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj"
             }
           }
         }
@@ -2804,7 +2804,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

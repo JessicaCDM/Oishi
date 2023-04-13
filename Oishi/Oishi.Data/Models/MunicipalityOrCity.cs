@@ -8,20 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
-    public class Subcategory
+    public class MunicipalityOrCity
     {
         [Key]
         public int Id { get; set; }
 
-        [StringLength(48)]
-        public string Description { get; set; }
+        [StringLength(56)]
+        public string Name { get; set; }
+        public int RegionId { get; set; }
 
-        public int CategoryId { get; set; }
 
-
-        public Category Category { get; set; } 
+        public Region Region { get; set; }
         public ICollection<Advertisement> Advertisements { get; set; }
 
     }

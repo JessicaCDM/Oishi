@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
     public class UserAccount
     {

@@ -8,18 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
-    public class Region
+    public class Profile
     {
         [Key]
         public int Id { get; set; }
 
-        [StringLength(48)]
-        public string Name { get; set; }
+        [StringLength(16)]
+        public string Code { get; set; }
 
 
-        public ICollection<MunicipalityOrCity> MunicipalityOrCities { get; set; }
+        public ICollection<UserAccount> UserAccounts { get; set; }
 
     }
 }

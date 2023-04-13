@@ -11,7 +11,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
     public class Advertisement
     {
@@ -36,15 +36,13 @@ namespace Oishi.Data.Models.Database
         [Column(TypeName = "decimal(7,2)")]
         public decimal Price { get; set; }
         public DateTime LastUpdateDate { get; set; }
-
+        public Enums.AdvertisementStatus AdvertisementStatus { get; set; }
         public int UserAccountId { get; set; }
-        public int AdvertisementStatusId { get; set; }
         public int MunicipalityOrCityId { get; set; }
         public int SubcategoryId { get; set; }
 
 
-        public UserAccount UserAccount { get; set; } 
-        public AdvertisementStatus AdvertisementStatus { get; set; }
+        public UserAccount UserAccount { get; set; }
         public MunicipalityOrCity MunicipalityOrCity { get; set; }
         public Subcategory Subcategory { get; set; }
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }

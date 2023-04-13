@@ -12,3 +12,17 @@ D:\TrabalhoFinalCET\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.pdb
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.runtimeconfig.json
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.deps.json
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.runtimeconfig.json
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.pdb
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.AssemblyReference.cache
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfoInputs.cache
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfo.cs
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\refint\Oishi.Data.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.pdb
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
     public class UserInternalLogin
     {

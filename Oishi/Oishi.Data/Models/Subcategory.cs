@@ -8,18 +8,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
-    public class Profile
+    public class Subcategory
     {
         [Key]
         public int Id { get; set; }
 
-        [StringLength(16)]
-        public string Code { get; set; }
+        [StringLength(48)]
+        public string Description { get; set; }
+
+        public int CategoryId { get; set; }
 
 
-        public ICollection<UserAccount> UserAccounts { get; set; }
+        public Category Category { get; set; }
+        public ICollection<Advertisement> Advertisements { get; set; }
 
     }
 }

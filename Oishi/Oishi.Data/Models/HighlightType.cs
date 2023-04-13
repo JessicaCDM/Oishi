@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Models.Database
+namespace Oishi.Data.Models
 {
     public class HighlightType
     {
@@ -22,7 +22,7 @@ namespace Oishi.Data.Models.Database
         public decimal Price { get; set; }
 
         public byte Days { get; set; }
-        
+
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
 
     }

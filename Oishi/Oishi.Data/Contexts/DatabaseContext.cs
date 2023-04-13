@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Oishi.Data.Models.Database;
+using Oishi.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +12,7 @@ namespace Oishi.Data.Contexts
 {
     public class DatabaseContext : IdentityDbContext
     {
-        public DatabaseContext(DbContextOptions<DatabaseContext> options)
-            : base(options)
+        public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {
 
         }
@@ -32,7 +31,6 @@ namespace Oishi.Data.Contexts
         public DbSet<EmailValidationStatus> EmailValidationStatuses { get;set; }
         public DbSet<Profile> Profiles { get;set; }
         public DbSet<Advertisement> Advertisements { get;set; }
-        public DbSet<AdvertisementStatus> AdvertisementStatuses { get;set; }
         public DbSet<Image> Images { get;set; }
         public DbSet<MunicipalityOrCity> MunicipalityOrCities { get;set; }
         public DbSet<Region> Regions { get;set; }
