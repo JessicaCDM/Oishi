@@ -15,9 +15,9 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Data.Models.Category> Get()
+        public Data.Models.Category[] Get()
         {
-            return _categoryProvider.Get();
+            return _categoryProvider.Get().ToArray();
         }
 
         [HttpGet]
