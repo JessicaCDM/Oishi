@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Oishi.Data.Enums
 {
-    public enum AdvertisementStatus
+    public enum EmailValidationStatus
     {
         Active = 1,
         Inactive = 2,
         Blocked = 3,
-        ToApprove = 4,
+        Invalid = 4,
     }
 }

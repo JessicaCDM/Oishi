@@ -21,9 +21,6 @@ namespace Oishi.Data.Models
         [StringLength(64)]
         public string Title { get; set; }
 
-        [StringLength(128)]
-        public string Location { get; set; }
-
         [Column(TypeName = "date")]
         public DateTime StartDate { get; set; }
 
@@ -35,7 +32,7 @@ namespace Oishi.Data.Models
 
         [Column(TypeName = "decimal(7,2)")]
         public decimal Price { get; set; }
-        public DateTime LastUpdateDate { get; set; }
+        public DateTime? LastUpdateDate { get; set; }
         public Enums.AdvertisementStatus AdvertisementStatus { get; set; }
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
