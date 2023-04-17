@@ -486,9 +486,6 @@ namespace Oishi.Data.Migrations
                         .HasMaxLength(320)
                         .HasColumnType("nvarchar(320)");
 
-                    b.Property<int>("EmailValidationStatus")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("LastLogin")
                         .HasColumnType("datetime2");
 

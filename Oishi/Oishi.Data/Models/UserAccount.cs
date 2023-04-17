@@ -33,7 +33,6 @@ namespace Oishi.Data.Models
         public DateTime DateCreated { get; set; }
 
         public Enums.UserAccountStatus UserAccountStatus { get; set; }
-        public Enums.EmailValidationStatus EmailValidationStatus { get; set; }
 
         public int ProfileId { get; set; }
  
