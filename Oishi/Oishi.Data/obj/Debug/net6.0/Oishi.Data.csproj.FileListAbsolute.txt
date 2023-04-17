@@ -40,3 +40,17 @@ D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\refint\Oishi.D
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.pdb
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.AssemblyReference.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfoInputs.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfo.cs
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.CoreCompileInputs.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\refint\Oishi.Data.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.pdb
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.deps.json
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.runtimeconfig.json
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.pdb
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll

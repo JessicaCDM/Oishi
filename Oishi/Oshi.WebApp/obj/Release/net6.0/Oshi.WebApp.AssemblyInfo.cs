@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Oshi.WebApp-eff66669-4738-4911-9849-96f41322aff6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oshi.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
