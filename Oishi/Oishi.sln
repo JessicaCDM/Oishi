@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oishi.Data", "Oishi.Data\Oi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oishi.WebAPI", "Oishi.WebAPI\Oishi.WebAPI.csproj", "{74B49A83-E4FD-432B-B321-CB26230BF860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oshi.WebApp", "Oshi.WebApp\Oshi.WebApp.csproj", "{48003F0D-2F29-4C62-86DC-939A445FBC70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oishi.WebApp", "Oishi.WebApp\Oishi.WebApp.csproj", "{EBE2014B-99A7-48A7-A588-4DD9BD16D6BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{74B49A83-E4FD-432B-B321-CB26230BF860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B49A83-E4FD-432B-B321-CB26230BF860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B49A83-E4FD-432B-B321-CB26230BF860}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48003F0D-2F29-4C62-86DC-939A445FBC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48003F0D-2F29-4C62-86DC-939A445FBC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48003F0D-2F29-4C62-86DC-939A445FBC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48003F0D-2F29-4C62-86DC-939A445FBC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE2014B-99A7-48A7-A588-4DD9BD16D6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE2014B-99A7-48A7-A588-4DD9BD16D6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE2014B-99A7-48A7-A588-4DD9BD16D6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE2014B-99A7-48A7-A588-4DD9BD16D6BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

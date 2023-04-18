@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Oishi.Data.Contexts
 {
-    public class DatabaseContext : IdentityDbContext
+    public class DatabaseContext : DbContext
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {
