@@ -28,7 +28,7 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public UserAccount Insert(string userName, string email, string phone, DateTime birthDate)
+        public UserAccount Insert(string userName, string email, string phone, DateTime birthDate, int profileId)
         {
             UserAccount userAccount = new UserAccount()
             {
@@ -36,6 +36,7 @@ namespace Oishi.WebAPI.Controllers
                 Email       = email,
                 Phone       = phone,
                 BirthDate   = birthDate,
+                ProfileId   = profileId,
             };
             return _userProvider.Insert(userAccount);
         }

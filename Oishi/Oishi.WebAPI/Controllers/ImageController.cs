@@ -39,7 +39,7 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public Data.Models.Image? Update(int id, string sourceImage)
+        public Data.Models.Image? Update(int id, string sourceImage)        //nao necessita
         {
             Data.Models.Image newImage = new Data.Models.Image()
             {
@@ -48,7 +48,7 @@ namespace Oishi.WebAPI.Controllers
 
             };
 
-            return _imageProvider.Update(newImage);
+            return _imageProvider.Update(newImage); 
         }
 
         [HttpGet]
