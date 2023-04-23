@@ -1,0 +1,18 @@
+a.decor {
+    font-size: 14px;
+}
+
+    a.decor:hover {
+        text-decoration: none;
+        color: #8b6b4a;
+    }
+
+ul.nodecor {
+    list-style-type: none;
+    text-align: left;
+}
+
+/*div.styleborder {
+    border-left-width: thin;
+    border-color: black;
+}*/

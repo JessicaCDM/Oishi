@@ -2433,7 +2433,7 @@ window.theme.fn = {
 		accX: 0,
 		accY: -150,
 		delay: 1,
-		barColor: '#0088CC',
+		barColor: '#d4a373',
 		trackColor: '#f2f2f2',
 		scaleColor: false,
 		scaleLength: 5,
