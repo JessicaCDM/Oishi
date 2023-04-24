@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Help";
+}
+
+<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+<div id="googlemaps" class="google-map mt-0" style="height: 300px;"></div>
+
+<div class="container">
+
+    <div class="row py-4">
+        <div class="col-lg-6">
+            <form>
+                <h2 class="font-weight-bold text-8 mt-2 mb-0">Contacte-nos</h2>
+                <p class="mb-4">A nossa equipa encontra-se ao seu dispor, ficaremos felizes em poder ajudá-lo!</p>
+
+                <div class="row">
+                    <div class="form-group col-lg-6">
+                        <label class="form-label mb-1 text-2">Nome Completo</label>
+                        <input type="text" value="" data-msg-required="Por favor insira o seu nome." maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label class="form-label mb-1 text-2">Endereço de email</label>
+                        <input type="email" value="" data-msg-required="Por favor insira o seu email." data-msg-email="Por favor insira um endereço de email válido." maxlength="100" class="form-control text-3 h-auto py-2" name="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label class="form-label mb-1 text-2">Assunto</label>
+                        <input type="text" value="" data-msg-required="Por favor insira o assunto." maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label class="form-label mb-1 text-2">Mensagem</label>
+                        <textarea maxlength="5000" data-msg-required="Por favor insira a sua mensagem." rows="8" class="form-control text-3 h-auto py-2" name="message" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <input type="submit" value="Enviar Mensagem" class="btn btn-primary btn-modern" data-loading-text="A carregar...">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-lg-6">
+
+            <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
+                <h4 class="mt-2 mb-1"><strong>Contactos</strong></h4>
+                <ul class="list list-icons list-icons-style-2 mt-2">
+                    <li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Linha de Apoio:</strong> (+351) 915 658 789</li>
+                    <li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="mailto:oishi@oishikitchen.pt">oishi@oishikitchen.pt</a></li>
+                </ul>
+            </div>
+
+            <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
+                <h4 class="pt-5"><strong>Horário</strong> (Linha de Apoio)</h4>
+                <ul class="list list-icons list-dark mt-2">
+                    <li><i class="far fa-clock top-6"></i> Segunda - Sexta - 9:00h ás 18:00h</li>
+                </ul>
+            </div>
+
+
+            <p class="lead mb-0 text-4 pt-5">Tentaremos responder às suas questões com a maior brevidade possível!</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section scripts {
+    <script src="/js/help.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuel2lQ6eM8xxhxlOWbIU0VFeFNzvyH-A&callback=initMap"></script>
+
+}

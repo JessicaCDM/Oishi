@@ -17,6 +17,10 @@ namespace Oishi.WebApp.Controllers
         {
             return View();
         }
+        public IActionResult Help()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
