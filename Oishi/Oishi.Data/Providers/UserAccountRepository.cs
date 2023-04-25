@@ -1,12 +1,5 @@
 ﻿using Oishi.Data.Contexts;
 using Oishi.Data.Models;
-using Oishi.Data.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Oishi.Data.Providers
 {
@@ -48,11 +41,11 @@ namespace Oishi.Data.Providers
             UserExternalLogin? idUserExternalLogin = _databaseContext.UserExternalLogins.FirstOrDefault(x => x.UserAccountId == item.Id);
             if (idUserExternalLogin != null)
             {
-                item.UserAccountStatus = UserAccountStatus.Active;
+                item.UserAccountStatus = Shared.Enums.UserAccountStatus.Active;
             }
             else
             {
-                item.UserAccountStatus = UserAccountStatus.EmailToApprove;
+                item.UserAccountStatus = Shared.Enums.UserAccountStatus.EmailToApprove;
             }
             _databaseContext.UserAccounts.Add(item);
             _databaseContext.SaveChanges();

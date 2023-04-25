@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace Oishi.WebApp
 {
@@ -9,10 +11,6 @@ namespace Oishi.WebApp
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<Data.Contexts.DatabaseContext>(options =>
-                options.UseSqlServer(connectionString));
-
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();

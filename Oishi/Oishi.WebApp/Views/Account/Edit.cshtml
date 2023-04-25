@@ -1,0 +1,107 @@
+﻿@model Oishi.WebApp.ViewModels.UserAccounts.AccountEditViewModel
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<section class="page-header page-header-modern bg-color-light-scale-1 page-header-lg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 align-self-center p-static order-2 text-center">
+                <h1 class="font-weight-bold text-dark">Perfil de utilizador</h1>
+            </div>
+            <div class="col-md-12 align-self-center order-1">
+                <ul class="breadcrumb d-block text-center">
+                    <li><a href="#">Perfil</a></li>
+                    <li class="active">Pages</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container pt-3 pb-2">
+
+    <div class="row pt-2">
+        <div class="col-lg-3 mt-4 mt-lg-0">
+
+            <div class="d-flex justify-content-center mb-4">
+                <div class="profile-image-outer-container">
+                    <div class="profile-image-inner-container bg-color-primary">
+                        <img src="img/avatars/avatar.jpg">
+                        <span class="profile-image-button bg-color-dark">
+                            <i class="fas fa-camera text-light"></i>
+                        </span>
+                    </div>
+                    <input type="file" id="file" class="form-control profile-image-input">
+                </div>
+            </div>
+
+            <aside class="sidebar mt-2" id="sidebar">
+                <ul class="nav nav-list flex-column mb-5">
+                    <li class="nav-item"><a class="nav-link text-3 text-dark active" href="#">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link text-3" href="#">Editar perfil</a></li>
+                </ul>
+            </aside>
+
+        </div>
+        <div class="col-lg-9">
+
+            <form asp-action="Edit" role="form" class="needs-validation">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group row">
+                    <label asp-for="Username" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
+                    <div class="col-lg-9">
+                        <input asp-for="Username" class="form-control text-3 h-auto py-2" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Email" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
+                    <div class="col-lg-9">
+                        <input asp-for="Email" class="form-control text-3 h-auto py-2" type="email" required>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Phone" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2"></label>
+                    <div class="col-lg-9">
+                        <input asp-for="Phone" class="form-control text-3 h-auto py-2" type="tel">
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Mudar Password
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            -
+                        </button>
+                    </div>
+                    <div class="card-body" class="collapse" id="collapseExample">
+                        <div class="form-group row">
+                            <label asp-for="Password" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
+                            <div class="col-lg-9">
+                                <input asp-for="Password" class="form-control text-3 h-auto py-2" type="password" required>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">Confirmar palavra-passe</label>
+                            <div class="col-lg-9">
+                                <input class="form-control text-3 h-auto py-2" type="password" name="confirmPassword" value="" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="form-group row">
+                    <div class="form-group col-lg-9">
+                    </div>
+                    <div class="form-group col-lg-3">
+                        <input type="submit" value="Guardar" class="btn btn-primary btn-modern float-end" data-loading-text="A carregar...">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>

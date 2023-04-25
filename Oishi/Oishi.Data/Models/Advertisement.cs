@@ -33,7 +33,7 @@ namespace Oishi.Data.Models
         [Column(TypeName = "decimal(7,2)")]
         public decimal Price { get; set; }
         public DateTime? LastUpdateDate { get; set; }
-        public Enums.AdvertisementStatus AdvertisementStatus { get; set; }
+        public Shared.Enums.AdvertisementStatus AdvertisementStatus { get; set; }
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
         public int SubcategoryId { get; set; }

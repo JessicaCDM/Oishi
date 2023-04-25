@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Oishi.WebApp.Models;
+using Oishi.WebApp.ViewModels;
 using System.Diagnostics;
 
 namespace Oishi.WebApp.Controllers

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oishi.Data.Enums
+namespace Oishi.Shared.Enums
 {
     public enum AdvertisementStatus
     {

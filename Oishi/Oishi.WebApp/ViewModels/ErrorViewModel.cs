@@ -1,4 +1,4 @@
-namespace Oishi.WebApp.Models
+namespace Oishi.WebApp.ViewModels
 {
     public class ErrorViewModel
     {

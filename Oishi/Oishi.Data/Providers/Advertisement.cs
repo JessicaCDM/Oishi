@@ -30,7 +30,7 @@ namespace Oishi.Data.Providers
         {
             item.StartDate= DateTime.Now;
             item.EndDate= DateTime.Now.AddMonths(1);
-            item.AdvertisementStatus = Enums.AdvertisementStatus.ToApprove;
+            item.AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove;
             _db.Advertisements.Add(item);
             _db.SaveChanges();
             return item;
@@ -43,7 +43,7 @@ namespace Oishi.Data.Providers
             {
                 advertisementToUpdate.Title = item.Title;
                 advertisementToUpdate.EndDate= DateTime.Now.AddMonths(1);
-                advertisementToUpdate.AdvertisementStatus = Enums.AdvertisementStatus.ToApprove;
+                advertisementToUpdate.AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove;
                 advertisementToUpdate.Description = item.Description;
                 advertisementToUpdate.Price= item.Price;
                 advertisementToUpdate.LastUpdateDate = DateTime.Now;

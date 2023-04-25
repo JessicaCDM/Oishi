@@ -32,7 +32,7 @@ namespace Oishi.Data.Models
         public string? SourceImage { get; set; }
         public DateTime DateCreated { get; set; }
 
-        public Enums.UserAccountStatus UserAccountStatus { get; set; }
+        public Shared.Enums.UserAccountStatus UserAccountStatus { get; set; }
 
         public int ProfileId { get; set; }
  

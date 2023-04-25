@@ -1,4 +1,4 @@
-namespace Oishi.WebApp.Models
+namespace Oishi.WebApp.ViewModels.UserAccounts
 {
     public class RegisterViewModel
     {

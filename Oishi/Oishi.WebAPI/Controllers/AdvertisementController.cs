@@ -36,7 +36,7 @@ namespace Oishi.WebAPI.Controllers
                 Title = title,
                 Description = description,
                 Price = price,
-                AdvertisementStatus = Data.Enums.AdvertisementStatus.ToApprove,
+                AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove,
                 UserAccountId = userAccount,
                 MunicipalityOrCityId = municipalityOrCity,
                 SubcategoryId = subCategory,
@@ -57,7 +57,7 @@ namespace Oishi.WebAPI.Controllers
                 Title = title,
                 Description = description,
                 Price = price,
-                AdvertisementStatus = Data.Enums.AdvertisementStatus.ToApprove,
+                AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove,
                 MunicipalityOrCityId = municipalityOrCity,
             };
 
