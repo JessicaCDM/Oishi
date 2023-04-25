@@ -12,8 +12,13 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
-        // POST: UserAccountsController/Register
-        [HttpPost]
+		public ActionResult UserProfile()
+		{
+			return View();
+		}
+
+		// POST: UserAccountsController/Register
+		[HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Register(RegisterViewModel model)
         {
