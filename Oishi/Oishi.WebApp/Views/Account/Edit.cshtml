@@ -1,4 +1,4 @@
-﻿@model Oishi.WebApp.ViewModels.UserAccounts.AccountEditViewModel
+﻿@model Oishi.Shared.ViewModels.Account.AccountEditViewModel
 @{
     ViewData["Title"] = "User Profile";
 }
@@ -51,7 +51,7 @@
                 <div class="form-group row">
                     <label asp-for="Username" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
                     <div class="col-lg-9">
-                        <input asp-for="Username" class="form-control text-3 h-auto py-2" />
+                        <input asp-for="Username" class="form-control text-3 h-auto py-2" required />
                         <span asp-validation-for="Username" class="text-danger"></span>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using Oishi.WebApp.ViewModels.UserAccounts;
+using Oishi.Shared.ViewModels.Account;
 
 namespace Oishi.WebApp.Controllers
 {
@@ -26,7 +26,7 @@ namespace Oishi.WebApp.Controllers
             {
                 // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
                 int userAccountId = 3;
-                string? apiResponse = await webAPIProvider.Request($"UserAccount/GetFirst?id={userAccountId}");
+                string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirst?id={userAccountId}");
                 if (apiResponse != null)
                     model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
             }
@@ -38,11 +38,18 @@ namespace Oishi.WebApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(AccountEditViewModel model)
+        public async Task<IActionResult> Edit(AccountEditViewModel model)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-
+                using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+                {
+                    // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
+                    int userAccountId = 3;
+                    string? apiResponse = await webAPIProvider.Post($"UserAccount/Update?id={userAccountId}", model);
+                    if (apiResponse != null)
+                        model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
+                }
             }
             return View();
         }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Oishi.Data.Models;
 using Oishi.Data.Providers;
+using Oishi.Shared.ViewModels.Account;
 
 namespace Oishi.WebAPI.Controllers
 {
@@ -41,17 +42,17 @@ namespace Oishi.WebAPI.Controllers
             return _userProvider.Insert(userAccount);
         }
 
-        [HttpGet]
-        public UserAccount? Update(int id, UserAccount updateUser)
+        [HttpPost]
+        public UserAccount? Update(int id, AccountEditViewModel updateUser)
         {
-            var userAccount = _userProvider.GetFirst(id);
+            UserAccount? userAccount = _userProvider.GetFirst(id);
 
             if (userAccount != null)
             { 
                 userAccount.Username    = updateUser.Username;
                 userAccount.Email       = updateUser.Email;
                 userAccount.Phone       = updateUser.Phone;
-                userAccount.BirthDate   = updateUser.BirthDate;
+                //userAccount.BirthDate   = updateUser.BirthDate;
             }
             
             return _userProvider?.Update(userAccount);

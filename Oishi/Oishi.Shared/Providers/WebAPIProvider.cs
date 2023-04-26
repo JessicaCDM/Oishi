@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,7 @@ namespace Oishi.Shared.Providers
             _webAPIAddress = webAPIAddress;
         }
 
-
-        public async Task<string?> Request(string endpoint)
+        public async Task<string?> Get(string endpoint)
         {
             string? result = null;
             using (var httpClient = new HttpClient())
@@ -26,8 +26,26 @@ namespace Oishi.Shared.Providers
                     using (var content = response.Content)
                     {
                         result = await content.ReadAsStringAsync();
+                    }
+                }
+            }
 
-                    }                        
+            return result;
+        }
+
+        public async Task<string?> Post(string endpoint, object model)
+        {
+            string? result = null;
+            using (var httpClient = new HttpClient())
+            {
+                StringContent modelContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+
+                using (var response = await httpClient.PostAsync($"{_webAPIAddress}{endpoint}", modelContent))
+                {
+                    using (var content = response.Content)
+                    {
+                        result = await content.ReadAsStringAsync();
+                    }
                 }
             }
 

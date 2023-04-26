@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Oishi.WebApp.ViewModels.UserAccounts
+namespace Oishi.Shared.ViewModels.Account
 {
     public class AccountEditViewModel
     {
@@ -24,9 +24,8 @@ namespace Oishi.WebApp.ViewModels.UserAccounts
         public string? Phone { get; set; }
 
         [DisplayName("Palavra-passe")]
-        [Required(ErrorMessage = "Insira a password")]
         [MinLength(8)]
         [MaxLength(32)]
-        public string Password { get; set; }
+        public string? Password { get; set; }
     }
 }
