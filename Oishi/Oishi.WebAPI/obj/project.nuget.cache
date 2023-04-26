@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J8XU/gnBIn+o/mQE4bpJrppgY2jOTGkjul+Me/L9bFz/s46qC9ZqhB9MWdRkpo4Rdula3C8AoR/UbzrZnHSKRQ==",
+  "dgSpecHash": "Kqmm2ptZvHde743GCwWRnxQBiGPSitzQcBWDrh4nQ0j/qJxQ+hA0V1xcY5Afb7tjumudexkUrXR0X0/HmhM0/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.WebAPI\\Oishi.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Sónia\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Sónia\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Sónia\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Sónia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Sónia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.0\\swashbuckle.aspnetcore.6.0.0.nupkg.sha512",
     "C:\\Users\\Sónia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.0\\swashbuckle.aspnetcore.swagger.6.0.0.nupkg.sha512",
     "C:\\Users\\Sónia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.0\\swashbuckle.aspnetcore.swaggergen.6.0.0.nupkg.sha512",

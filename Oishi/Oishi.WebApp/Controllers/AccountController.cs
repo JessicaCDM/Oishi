@@ -54,6 +54,20 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
+        // if (ModelState.IsValid)
+        //    {
+        //        using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+        //        {
+        //            // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
+        //            int userAccountId = 3;
+        //            string? apiResponse = await webAPIProvider.Post($"UserAccount/Update?id={userAccountId}", model);
+        //            if (apiResponse != null)
+        //                model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
+        //        }
+        //    }
+        //    return View();
+        //}
+
         // POST: UserAccountsController/Register
         [HttpPost]
         [ValidateAntiForgeryToken]

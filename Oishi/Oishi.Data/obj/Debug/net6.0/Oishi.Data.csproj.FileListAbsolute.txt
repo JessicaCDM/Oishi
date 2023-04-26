@@ -54,3 +54,6 @@ C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.pdb
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Shared.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Shared.pdb
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.CopyComplete

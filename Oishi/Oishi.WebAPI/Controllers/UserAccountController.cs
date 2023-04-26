@@ -10,10 +10,12 @@ namespace Oishi.WebAPI.Controllers
     public class UserAccountController : ControllerBase
     {
         private UserAccountRepository _userProvider;
+        private UserInternalLoginRepository _userInternalLoginRepository;
 
         public UserAccountController(Data.Contexts.DatabaseContext dbcontext) 
         {
             _userProvider = new UserAccountRepository(dbcontext);
+            _userInternalLoginRepository = new UserInternalLoginRepository(dbcontext);
         }
 
         [HttpGet]
@@ -62,6 +64,31 @@ namespace Oishi.WebAPI.Controllers
         public bool Delete(int id)
         {
             return _userProvider.Delete(id);
+        }
+
+        [HttpPost]
+        public UserAccount? ProfileUpdate(int id, AccountEditViewModel updateUser)
+        {
+            UserAccount? userAccount = _userProvider.GetFirst(id);
+
+            if (userAccount != null)
+            {
+                userAccount.Username = updateUser.Username;
+                userAccount.Email = updateUser.Email;
+                userAccount.Phone = updateUser.Phone;
+                //userAccount.BirthDate   = updateUser.BirthDate;
+            }
+            if (!string.IsNullOrEmpty(updateUser.Password))
+            {
+                UserInternalLogin? userInternalLogin = _userInternalLoginRepository.GetFirst(id);
+                if (userInternalLogin != null)
+                {
+                    //TODO : Get password hash from hash function
+                    userInternalLogin.PasswordHash = updateUser.Password;
+                }
+            }
+
+            return _userProvider?.Update(userAccount);
         }
     }
 }

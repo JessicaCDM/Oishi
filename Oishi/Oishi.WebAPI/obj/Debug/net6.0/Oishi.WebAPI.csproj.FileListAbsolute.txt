@@ -244,3 +244,6 @@ C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.WebAPI\bin\Debug\net
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.WebAPI\obj\Debug\net6.0\Oishi.WebAPI.csproj.CopyComplete
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.WebAPI\obj\Debug\net6.0\Oishi.WebAPI.genruntimeconfig.cache
 C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.WebAPI\obj\Debug\net6.0\ref\Oishi.WebAPI.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.WebAPI\bin\Debug\net6.0\Oishi.Shared.dll
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.WebAPI\bin\Debug\net6.0\Oishi.Shared.pdb
+C:\Users\Sónia\Desktop\TPSI\5425 - Projeto\Oishi\Oishi\Oishi.WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
