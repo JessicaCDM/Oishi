@@ -20,7 +20,7 @@ namespace Oishi.Data.Providers
             return _db.HighlightTypes.ToList();
         }
 
-        public Models.HighlightType? GetFirst(int id)
+        public Models.HighlightType? GetFirstById(int id)
         {
             return _db.HighlightTypes.FirstOrDefault(x => x.Id == id);
         }

@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.Category? GetFirst(int id)
         {
-            return _categoryProvider.GetFirst(id);
+            return _categoryProvider.GetFirstById(id);
         }
 
         [HttpGet]

@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.Profile? GetFirst(int id)
         {
-            return _profileProvider.GetFirst(id);
+            return _profileProvider.GetFirstById(id);
         }
 
         [HttpGet]

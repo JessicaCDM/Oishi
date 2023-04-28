@@ -24,7 +24,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public UserInternalLogin? GetFirst(int id)
         {
-            return _userInternalProvider.GetFirst(id);
+            return _userInternalProvider.GetFirstById(id);
         }
 
         [HttpGet]
@@ -43,7 +43,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public UserInternalLogin? Update(int id, UserInternalLogin userInternalLogin)
         {
-            var userInternal = _userInternalProvider.GetFirst(id);
+            var userInternal = _userInternalProvider.GetFirstById(id);
 
             if (userInternal != null)
             {

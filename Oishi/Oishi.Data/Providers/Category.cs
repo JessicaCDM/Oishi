@@ -14,7 +14,7 @@
             return _db.Categories.ToList();
         }
 
-        public Models.Category? GetFirst(int id)
+        public Models.Category? GetFirstById(int id)
         {
             return _db.Categories.FirstOrDefault(x => x.Id == id);
         }

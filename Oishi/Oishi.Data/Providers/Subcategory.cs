@@ -20,7 +20,7 @@ namespace Oishi.Data.Providers
             return _db.Subcategories.ToList();
         }
 
-        public Models.Subcategory? GetFirst(int id)
+        public Models.Subcategory? GetFirstById(int id)
         {
             return _db.Subcategories.FirstOrDefault(x => x.Id == id);
         }

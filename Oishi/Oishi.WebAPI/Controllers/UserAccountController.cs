@@ -27,7 +27,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public UserAccount? GetFirst(int id)
         {
-            return _userProvider.GetFirst(id);
+            return _userProvider.GetFirstById(id);
         }
 
         [HttpGet]
@@ -47,7 +47,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpPost]
         public UserAccount? Update(int id, AccountEditViewModel updateUser)
         {
-            UserAccount? userAccount = _userProvider.GetFirst(id);
+            UserAccount? userAccount = _userProvider.GetFirstById(id);
 
             if (userAccount != null)
             { 
@@ -69,7 +69,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpPost]
         public UserAccount? ProfileUpdate(int id, AccountEditViewModel updateUser)
         {
-            UserAccount? userAccount = _userProvider.GetFirst(id);
+            UserAccount? userAccount = _userProvider.GetFirstById(id);
 
             if (userAccount != null)
             {
@@ -80,7 +80,7 @@ namespace Oishi.WebAPI.Controllers
             }
             if (!string.IsNullOrEmpty(updateUser.Password))
             {
-                UserInternalLogin? userInternalLogin = _userInternalLoginRepository.GetFirst(id);
+                UserInternalLogin? userInternalLogin = _userInternalLoginRepository.GetFirstById(id);
                 if (userInternalLogin != null)
                 {
                     //TODO : Get password hash from hash function

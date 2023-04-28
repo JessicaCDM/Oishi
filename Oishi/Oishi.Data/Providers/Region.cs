@@ -21,7 +21,7 @@ namespace Oishi.Data.Providers
             return _db.Regions.ToList();
         }
 
-        public Models.Region? GetFirst(int id)
+        public Models.Region? GetFirstById(int id)
         {
             return _db.Regions.FirstOrDefault(x => x.Id == id);
         }

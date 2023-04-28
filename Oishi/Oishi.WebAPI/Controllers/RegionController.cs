@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.Region? GetFirst(int id)
         {
-            return _regionProvider.GetFirst(id);
+            return _regionProvider.GetFirstById(id);
         }
 
         [HttpGet]

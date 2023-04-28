@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.MunicipalityOrCity? GetFirst(int id)
         {
-            return _municipalityOrCityProvider.GetFirst(id);
+            return _municipalityOrCityProvider.GetFirstById(id);
         }
 
         [HttpGet]

@@ -29,9 +29,14 @@ namespace Oishi.Data.Providers
             return _databaseContext.UserAccounts.ToList();
         }
 
-        public UserAccount? GetFirst(int id)
+        public UserAccount? GetFirstById(int id)
         {
             return _databaseContext.UserAccounts.FirstOrDefault(u => u.Id == id);
+        }
+
+        public UserAccount? GetFirstByEmail(string email)
+        {
+            return _databaseContext.UserAccounts.FirstOrDefault(u => u.Email == email);
         }
 
         public UserAccount Insert(UserAccount item)

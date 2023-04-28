@@ -21,7 +21,7 @@ namespace Oishi.Data.Providers
             return _db.Advertisements.ToList();
         }
 
-        public Models.Advertisement? GetFirst(int id)
+        public Models.Advertisement? GetFirstById(int id)
         {
             return _db.Advertisements.FirstOrDefault(x => x.Id == id);
         }

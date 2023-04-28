@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.Image? GetFirst(int id)
         {
-            return _imageProvider.GetFirst(id);
+            return _imageProvider.GetFirstById(id);
         }
 
         [HttpGet]

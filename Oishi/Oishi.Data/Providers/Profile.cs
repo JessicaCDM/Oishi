@@ -20,7 +20,7 @@ namespace Oishi.Data.Providers
             return _db.Profiles.ToList();
         }
 
-        public Models.Profile? GetFirst(int id)
+        public Models.Profile? GetFirstById(int id)
         {
             return _db.Profiles.FirstOrDefault(x => x.Id == id);
         }

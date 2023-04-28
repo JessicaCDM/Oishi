@@ -20,7 +20,7 @@ namespace Oishi.Data.Providers
             return _db.Images.ToList();
         }
 
-        public Models.Image? GetFirst(int id)
+        public Models.Image? GetFirstById(int id)
         {
             return _db.Images.FirstOrDefault(x => x.Id == id);
         }

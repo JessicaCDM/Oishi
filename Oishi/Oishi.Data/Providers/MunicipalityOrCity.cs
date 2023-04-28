@@ -20,7 +20,7 @@ namespace Oishi.Data.Providers
             return _db.MunicipalityOrCities.ToList();
         }
 
-        public Models.MunicipalityOrCity? GetFirst(int id)
+        public Models.MunicipalityOrCity? GetFirstById(int id)
         {
             return _db.MunicipalityOrCities.FirstOrDefault(x => x.Id == id);
         }

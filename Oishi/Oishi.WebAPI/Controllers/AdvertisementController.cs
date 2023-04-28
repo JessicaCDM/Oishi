@@ -25,7 +25,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.Advertisement? GetFirst(int id)
         {
-            return _advertisementProvider.GetFirst(id);
+            return _advertisementProvider.GetFirstById(id);
         }
 
         [HttpGet]

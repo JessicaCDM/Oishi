@@ -34,7 +34,7 @@ namespace Oishi.Data.Providers
             return _databaseContext.UserInternalLogins.ToList();
         }
 
-        public UserInternalLogin? GetFirst(int id)
+        public UserInternalLogin? GetFirstById(int id)
         {
             return _databaseContext.UserInternalLogins.FirstOrDefault(i => i.UserAccountId == id);
         }

@@ -23,7 +23,7 @@ namespace Oishi.WebAPI.Controllers
         [HttpGet]
         public Data.Models.HighlightType? GetFirst(int id)
         {
-            return _highlightTypeProvider.GetFirst(id);
+            return _highlightTypeProvider.GetFirstById(id);
         }
 
         [HttpGet]
