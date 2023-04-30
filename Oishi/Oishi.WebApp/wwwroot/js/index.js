@@ -1,11 +1,15 @@
 ﻿
-function HideSubCategories(current_id) {
-    $('.sub-category-list-item').not('.' + current_id).hide();
+function HideSubCategories(id) {
+    $('.sub-category').not('.' + id).hide();
 }
 
-function ToggleSubCategory(item) {
-    HideSubCategories(item.id);
-    $('.' + item.id).toggle();
+function ToggleSubCategory(id) {
+    HideSubCategories(id);
+    $('.' + id).show();
+
+    $('html, body').animate({
+        scrollTop: $("#sub-categories").offset().top
+    }, 500);
 }
 
 $(document).ready(function () {

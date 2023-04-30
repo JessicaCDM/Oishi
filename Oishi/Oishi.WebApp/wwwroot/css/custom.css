@@ -1,10 +1,12 @@
-a.decor {
+.decor {
     font-size: 14px;
+    color: #d4a373;
+    cursor: pointer;
 }
 
-    a.decor:hover {
-        text-decoration: none;
+    .decor:hover {
         color: #8b6b4a;
+        text-decoration: none;
     }
 
 ul.nodecor {
