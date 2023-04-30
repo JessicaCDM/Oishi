@@ -2765,23 +2765,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sónia\\.nuget\\packages\\": {},
+    "C:\\Users\\narub\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.WebAPI\\Oishi.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\narub\\OneDrive\\Documentos\\GitHub\\Oishi\\Oishi\\Oishi.WebAPI\\Oishi.WebAPI.csproj",
       "projectName": "Oishi.WebAPI",
-      "projectPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.WebAPI\\Oishi.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Sónia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\narub\\OneDrive\\Documentos\\GitHub\\Oishi\\Oishi\\Oishi.WebAPI\\Oishi.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\narub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\narub\\OneDrive\\Documentos\\GitHub\\Oishi\\Oishi\\Oishi.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sónia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\narub\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2790,15 +2790,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj": {
-              "projectPath": "C:\\Users\\Sónia\\Desktop\\TPSI\\5425 - Projeto\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj"
+            "C:\\Users\\narub\\OneDrive\\Documentos\\GitHub\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj": {
+              "projectPath": "C:\\Users\\narub\\OneDrive\\Documentos\\GitHub\\Oishi\\Oishi\\Oishi.Data\\Oishi.Data.csproj"
             }
           }
         }
