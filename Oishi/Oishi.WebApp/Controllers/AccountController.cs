@@ -51,7 +51,7 @@ namespace Oishi.WebApp.Controllers
                 {
                     // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
                     int userAccountId = 3;
-                    string? apiResponse = await webAPIProvider.Post($"UserAccount/Update?id={userAccountId}", model);
+                    string? apiResponse = await webAPIProvider.Post($"UserAccount/ProfileUpdate?id={userAccountId}", model);
                     if (apiResponse != null)
                         model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
                 }

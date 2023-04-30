@@ -7904,81 +7904,81 @@ window.theme.fn = {
 
 	$.extend(theme, {
 
-		PluginValidation: {
+		//PluginValidation: {
 
-			defaults: {
-				formClass: 'needs-validation',
-				validator: {
-					highlight: function(element) {
-						$(element)
-							.addClass('is-invalid')
-							.removeClass('is-valid')
-							.parent()
-							.removeClass('has-success')
-							.addClass('has-danger');
-					},
-					success: function(label, element) {
-						$(element)
-							.removeClass('is-invalid')
-							.addClass('is-valid')
-							.parent()
-							.removeClass('has-danger')
-							.addClass('has-success')
-							.find('label.error')
-							.remove();
-					},
-					errorPlacement: function(error, element) {
-						if (element.attr('type') == 'radio' || element.attr('type') == 'checkbox') {
-							error.appendTo(element.parent().parent());
-						} else {
-							error.insertAfter(element);
-						}
-					}
-				}
-			},
+		//	defaults: {
+		//		formClass: 'needs-validation',
+		//		validator: {
+		//			highlight: function(element) {
+		//				$(element)
+		//					.addClass('is-invalid')
+		//					.removeClass('is-valid')
+		//					.parent()
+		//					.removeClass('has-success')
+		//					.addClass('has-danger');
+		//			},
+		//			success: function(label, element) {
+		//				$(element)
+		//					.removeClass('is-invalid')
+		//					.addClass('is-valid')
+		//					.parent()
+		//					.removeClass('has-danger')
+		//					.addClass('has-success')
+		//					.find('label.error')
+		//					.remove();
+		//			},
+		//			errorPlacement: function(error, element) {
+		//				if (element.attr('type') == 'radio' || element.attr('type') == 'checkbox') {
+		//					error.appendTo(element.parent().parent());
+		//				} else {
+		//					error.insertAfter(element);
+		//				}
+		//			}
+		//		}
+		//	},
 
-			initialize: function(opts) {
-				initialized = true;
+		//	initialize: function(opts) {
+		//		initialized = true;
 
-				this
-					.setOptions(opts)
-					.build();
+		//		this
+		//			.setOptions(opts)
+		//			.build();
 
-				return this;
-			},
+		//		return this;
+		//	},
 
-			setOptions: function(opts) {
-				this.options = $.extend(true, {}, this.defaults, opts);
+		//	setOptions: function(opts) {
+		//		this.options = $.extend(true, {}, this.defaults, opts);
 
-				return this;
-			},
+		//		return this;
+		//	},
 
-			build: function() {
-				var self = this;
+		//	build: function() {
+		//		var self = this;
 
-				if (!($.isFunction($.validator))) {
-					return this;
-				}
+		//		if (!($.isFunction($.validator))) {
+		//			return this;
+		//		}
 
-				self.setMessageGroups();
+		//		self.setMessageGroups();
 
-				$.validator.setDefaults(self.options.validator);
+		//		$.validator.setDefaults(self.options.validator);
 
-				$('.' + self.options.formClass).validate();
+		//		$('.' + self.options.formClass).validate();
 
-				return this;
-			},
+		//		return this;
+		//	},
 
-			setMessageGroups: function() {
+		//	setMessageGroups: function() {
 
-				$('.checkbox-group[data-msg-required], .radio-group[data-msg-required]').each(function() {
-					var message = $(this).data('msg-required');
-					$(this).find('input').attr('data-msg-required', message);
-				});
+		//		$('.checkbox-group[data-msg-required], .radio-group[data-msg-required]').each(function() {
+		//			var message = $(this).data('msg-required');
+		//			$(this).find('input').attr('data-msg-required', message);
+		//		});
 
-			}
+		//	}
 
-		}
+		//}
 
 	});
 

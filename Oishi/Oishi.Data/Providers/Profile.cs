@@ -37,7 +37,7 @@ namespace Oishi.Data.Providers
             Models.Profile? profileToUpdate = _db.Profiles.FirstOrDefault(x => x.Id == item.Id);
             if (profileToUpdate != null)
             {
-                profileToUpdate.Code = item.Code;  // Retirar?Ou alterar código?
+                profileToUpdate.Code = item.Code; 
                 _db.SaveChanges();
             }
 

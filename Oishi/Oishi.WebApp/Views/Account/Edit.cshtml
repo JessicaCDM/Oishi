@@ -38,8 +38,9 @@
 
             <aside class="sidebar mt-2" id="sidebar">
                 <ul class="nav nav-list flex-column mb-5">
-                    <li class="nav-item"><a class="nav-link text-3 text-dark active" href="#">Perfil</a></li>
-                    <li class="nav-item"><a class="nav-link text-3" href="#">Editar perfil</a></li>
+                    @* <li class="nav-item"><a class="nav-link text-3 text-dark active" href="#">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link text-3" href="#" id="changeProfile" onclick="javascript:ToggleAlterProfile(this);">Editar perfil</a></li>
+                    <li class="nav-item"><a class="nav-link text-3" href="#" id="changePassword" onclick="javascript:ToggleAlterPassword(this);">Alterar palavra-passe</a></li>*@
                 </ul>
             </aside>
 
@@ -48,50 +49,56 @@
 
             <form asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group row">
-                    <label asp-for="Username" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2"></label>
-                    <div class="col-lg-9">
-                        <input asp-for="Username" class="form-control text-3 h-auto py-2"/>
-                        <span asp-validation-for="Username" class="text-danger"></span>
+                <div @*class="changeProfile alter-profile"*@>
+                    <div class="form-group row">
+                        <label asp-for="Username" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2"></label>
+                        <div class="col-lg-9">
+                            <input asp-for="Username" class="form-control text-3 h-auto py-2" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="Email" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
+                        <div class="col-lg-9">
+                            <input asp-for="Email" class="form-control text-3 h-auto py-2" type="email" required>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="Phone" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2"></label>
+                        <div class="col-lg-9">
+                            <input asp-for="Phone" class="form-control text-3 h-auto py-2" type="tel">
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label asp-for="Email" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
-                    <div class="col-lg-9">
-                        <input asp-for="Email" class="form-control text-3 h-auto py-2" type="email" required>
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label asp-for="Phone" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2"></label>
-                    <div class="col-lg-9">
-                        <input asp-for="Phone" class="form-control text-3 h-auto py-2" type="tel">
-                        <span asp-validation-for="Phone" class="text-danger"></span>
-                    </div>
-                </div>
-                @*<div class="card">
+
+                <div class="card">
                     <div class="card-header">
-                        Mudar Password
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            -
+                            Alterar palavra-passe
                         </button>
                     </div>
-                    <div class="card-body" class="collapse" id="collapseExample">
-                        <div class="form-group row">
-                            <label asp-for="Password" class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required"></label>
-                            <div class="col-lg-9">
-                                <input asp-for="Password" class="form-control text-3 h-auto py-2" type="password" required>
-                                <span asp-validation-for="Password" class="text-danger"></span>
+                    <div class="form-group row">
+                        <div class="collapse card-body" id="collapseExample">
+
+                            <div class="form-group row">
+                                <label asp-for="Password" class="col-lg-3 col-form-label  line-height-9 pt-2 text-2 ">Nova palavra-passe</label>
+                                <div class="col-lg-9">
+                                    <input asp-for="Password" id="password" class="form-control text-3 h-auto py-2" type="password">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">Confirmar palavra-passe</label>
-                            <div class="col-lg-9">
-                                <input class="form-control text-3 h-auto py-2" type="password" name="confirmPassword" value="" required>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2">Confirmar palavra-passe</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control text-3 h-auto py-2" type="password" id="confirmPassword" name="confirmPassword" value="">
+                                    <span id="message"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>          *@      
+                </div>
                 <div class="form-group row">
                     <div class="form-group col-lg-9">
                     </div>
@@ -108,6 +115,6 @@
 
 
 @section scripts{
-    <script src="/js/clientValidations.js"></script>
-
+    <script src="/js/edit.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 }

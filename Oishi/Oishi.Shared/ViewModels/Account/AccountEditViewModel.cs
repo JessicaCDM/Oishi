@@ -26,7 +26,8 @@ namespace Oishi.Shared.ViewModels.Account
         [DisplayName("Palavra-passe")]
         [MinLength(8)]
         [MaxLength(32)]
-        [RegularExpression("/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$", ErrorMessage = "Min - 8 caracteres - com pelo menos 1 letra maiúscula, 1 minúscula e 1 número")]
+        [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{6,}$", ErrorMessage = "A sua password precisa de conter pelo menos 8 caracteres, uma letra maiúscula, uma minuscula, um número e um caractere.")]
         public string? Password { get; set; }
+
     }
 }
