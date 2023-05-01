@@ -1,5 +1,5 @@
 ﻿
-$('#password, #confirm_password').on('keyup', function () {
+$('#password, #confirmPassword').on('keyup', function () {
     if ($('#password').val() == $('#confirmPassword').val()) {
         $('#message').html('&#x2713').css('color', 'green');
     } else
