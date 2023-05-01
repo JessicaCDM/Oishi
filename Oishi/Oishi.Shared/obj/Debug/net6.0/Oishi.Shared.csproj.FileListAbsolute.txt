@@ -10,3 +10,15 @@ D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\refint\Oishi.Shared.dll
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.pdb
 D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\ref\Oishi.Shared.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\bin\Debug\net6.0\Oishi.Shared.deps.json
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\bin\Debug\net6.0\Oishi.Shared.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\bin\Debug\net6.0\Oishi.Shared.pdb
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.csproj.AssemblyReference.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.AssemblyInfoInputs.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.AssemblyInfo.cs
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.csproj.CoreCompileInputs.cache
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\refint\Oishi.Shared.dll
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\Oishi.Shared.pdb
+C:\Users\narub\OneDrive\Documentos\GitHub\Oishi\Oishi\Oishi.Shared\obj\Debug\net6.0\ref\Oishi.Shared.dll

@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+<div class="text-center">
+    <h1 class="display-4">Editar anúncio</h1>
+</div>
+
+<form>
+    <div class="form-group">
+        <label formaction="title">Título</label>
+		<input type="text" class="form-control" id="title" placeholder="Inserir título">
+    </div>
+    <div class="form-group">
+        <label for="subcategory">Selecione a subcategoria do artigo</label>
+        <select class="form-control" id="subcategory">
+            <option>Preparação de alimentos</option>
+            <option>Pequeno-almoço</option>
+            <option>Micro-ondas - Mini-fornos</option>
+            <option>Aspiradores</option>
+            <option>Máquinas de café</option>
+            <option>Funcooking</option>
+            <option>Placas</option>
+            <option>Fornos</option>
+            <option>Frigoríficos - Arcas</option>
+            <option>Fogões</option>
+            <option>Exaustores</option>
+            <option>Máquinas de loiça</option>
+            <option>Catering</option>
+            <option>Pastelaria</option>
+            <option>Confeitaria</option>
+            <option>Caixas - Frascos</option>
+            <option>Utensílios de servir</option>
+            <option>Utensílios de bancada</option>
+            <option>Facas - Tábuas de cortar</option>
+            <option>Outros utensílios</option>
+            <option>Faqueiros - Talheres</option>
+            <option>Chávenas - Tigelas - Canecas - Copos</option>
+            <option>Loiça</option>
+            <option>Galheteiros - Açucareiros - Saleiros - Pimenteiros</option>
+            <option>Outros de mesa</option>
+            <option>Caixotes - Cestos - Baldes</option>
+            <option>Carrinhos de apoio</option>
+            <option>Garrafeira</option>
+            <option>Bancos - Cadeiras</option>
+            <option>Mesas</option>
+            <option>Móveis de apoio</option>
+            <option>Balanças - Temporizadores</option>
+            <option>Utensílios</option>
+            <option>Formas</option>
+            <option>Aventais -  Pegas - Panos - Coxins</option>
+            <option>Tapetes</option>
+            <option>Toalhas - Guardanapos - Individuais de mesa</option>
+            <option>Assadeiras</option>
+            <option>Trens</option>
+            <option>Caçarolas - Panelas</option>
+            <option>Frigideiras - Grelhadores</option>
+            </select>
+    </div>
+
+    <div class="form-group">
+        <label for="price">Inserir preço</label>
+        <input type="text" class="form-control" id="price" placeholder="Euros">
+    </div>
+
+    <div class="form-group">
+        <label for="description">Descrição</label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="image">Inserir imagem</label><br />
+        <input type="file" class="form-control-file" id="image">
+    </div>
+
+    <div align="left">
+        <button class="btn btn-secondary btn-lg" type="submit" style="background-color: lightpink;">Criar</button>
+    </div>
+</form>
+    
+
