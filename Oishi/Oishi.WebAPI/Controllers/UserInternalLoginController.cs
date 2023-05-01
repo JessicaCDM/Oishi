@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Oishi.Data.Models;
 using Oishi.Data.Providers;
+using Oishi.Shared.ViewModels;
+using Oishi.Shared.ViewModels.Account;
 
 namespace Oishi.WebAPI.Controllers
 {
@@ -27,15 +29,14 @@ namespace Oishi.WebAPI.Controllers
             return _userInternalProvider.GetFirstById(id);
         }
 
-        [HttpGet]
-        public UserInternalLogin Insert(int id, string password, string confirmToken, string recoveryToken)
+        [HttpPost]
+        public UserInternalLogin Insert(RegisterViewModel registerUser)
         {
             UserInternalLogin userInternalLogin = new UserInternalLogin()
             {
-                UserAccountId       = id,
-                PasswordHash        = password,
-                ConfirmationToken   = confirmToken,
-                RecoveryToken       = recoveryToken
+                UserAccountId       = registerUser.Id,
+                PasswordHash        = Shared.Providers.CryptographyProvider.EncodeToBase64(registerUser.Password),
+                ConfirmationToken   = Guid.NewGuid()
             };
             return _userInternalProvider.Insert(userInternalLogin);
         }

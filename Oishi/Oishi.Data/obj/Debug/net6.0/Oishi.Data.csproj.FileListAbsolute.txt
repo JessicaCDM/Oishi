@@ -1,0 +1,17 @@
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.deps.json
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.runtimeconfig.json
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.dll
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Data.pdb
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Shared.dll
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\bin\Debug\net6.0\Oishi.Shared.pdb
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.AssemblyReference.cache
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfoInputs.cache
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.AssemblyInfo.cs
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.CoreCompileInputs.cache
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.csproj.CopyComplete
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.dll
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\refint\Oishi.Data.dll
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.pdb
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\Oishi.Data.genruntimeconfig.cache
+D:\TrabalhoFinalCET\Oishi\Oishi\Oishi\Oishi.Data\obj\Debug\net6.0\ref\Oishi.Data.dll

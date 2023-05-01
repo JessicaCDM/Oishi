@@ -11,11 +11,13 @@ namespace Oishi.WebAPI.Controllers
     {
         private UserAccountRepository _userProvider;
         private UserInternalLoginRepository _userInternalLoginRepository;
+        private Data.Providers.Profile _profileProvider;
 
         public UserAccountController(Data.Contexts.DatabaseContext dbcontext) 
         {
             _userProvider = new UserAccountRepository(dbcontext);
             _userInternalLoginRepository = new UserInternalLoginRepository(dbcontext);
+            _profileProvider = new Data.Providers.Profile(dbcontext);
         }
 
         [HttpGet]
@@ -31,15 +33,36 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public UserAccount Insert(string userName, string email, string phone, DateTime birthDate, int profileId)
+        public UserAccount? GetFirstByEmail(string email)
+        {
+            return _userProvider.GetFirstByEmail(email);
+        }
+
+        [HttpPost]
+        public UserAccount Insert(RegisterViewModel registerUser)
         {
             UserAccount userAccount = new UserAccount()
             {
-                Username    = userName,
-                Email       = email,
-                Phone       = phone,
-                BirthDate   = birthDate,
-                ProfileId   = profileId,
+                Username = registerUser.Nome,
+                Email = registerUser.Email,
+        };
+            return _userProvider.Insert(userAccount);
+        }
+
+        [HttpPost]
+        public UserAccount RegisterInternalAccount(RegisterViewModel model)
+        {
+            UserAccount userAccount = new UserAccount()
+            {
+                Username = model.Nome,
+                Email = model.Email,
+                ProfileId = _profileProvider.GetFirstByCode("User").Id,
+                UserAccountStatus = Shared.Enums.UserAccountStatus.EmailToApprove,
+                UserInternalLogin = new UserInternalLogin()
+                {
+                    ConfirmationToken = Guid.NewGuid(),
+                    PasswordHash = Shared.Providers.CryptographyProvider.EncodeToBase64(model.Password)
+                }
             };
             return _userProvider.Insert(userAccount);
         }

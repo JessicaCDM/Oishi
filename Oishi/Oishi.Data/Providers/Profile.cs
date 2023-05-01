@@ -25,6 +25,11 @@ namespace Oishi.Data.Providers
             return _db.Profiles.FirstOrDefault(x => x.Id == id);
         }
 
+        public Models.Profile? GetFirstByCode(string code)
+        {
+            return _db.Profiles.FirstOrDefault(x => x.Code == code);
+        }
+
         public Models.Profile Insert(Models.Profile item)
         {
             _db.Profiles.Add(item);

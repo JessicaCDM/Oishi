@@ -21,6 +21,11 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Edit()
         {
             AccountEditViewModel? model = null;
@@ -133,13 +138,34 @@ namespace Oishi.WebApp.Controllers
         // POST: UserAccountsController/Register
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Register(RegisterViewModel model)
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
+                using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+                {
+                    string email = model.Email;
+                    string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirstByEmail?email={email}");
 
+                    if (apiResponse == "")
+                    {
+                        apiResponse = await webAPIProvider.Post($"UserAccount/RegisterInternalAccount", model);
+                        if (apiResponse != null)
+                        {
+                            model = JsonConvert.DeserializeObject<RegisterViewModel>(apiResponse);
+
+                            ViewData["Success"] = "Registo realizado com sucesso! Verifique o seu e-mail";
+                            return View("~/Views/Account/Login.cshtml");
+                        }
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Utilizador já registado!");
+                        return View();
+                    }
+                }
             }
-            return View(model);
+            return View();
         }
     }
 }

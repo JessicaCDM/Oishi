@@ -1,5 +1,7 @@
 ﻿using Oishi.Data.Contexts;
 using Oishi.Data.Models;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Oishi.Data.Providers
 {
@@ -41,21 +43,13 @@ namespace Oishi.Data.Providers
 
         public UserAccount Insert(UserAccount item)
         {
-            item.LastLogin              = DateTime.Now;
             item.DateCreated            = DateTime.Now;
-            UserExternalLogin? idUserExternalLogin = _databaseContext.UserExternalLogins.FirstOrDefault(x => x.UserAccountId == item.Id);
-            if (idUserExternalLogin != null)
-            {
-                item.UserAccountStatus = Shared.Enums.UserAccountStatus.Active;
-            }
-            else
-            {
-                item.UserAccountStatus = Shared.Enums.UserAccountStatus.EmailToApprove;
-            }
+          
             _databaseContext.UserAccounts.Add(item);
             _databaseContext.SaveChanges();
             return item;
         }
+
 
         public UserAccount? Update(UserAccount item)
         {

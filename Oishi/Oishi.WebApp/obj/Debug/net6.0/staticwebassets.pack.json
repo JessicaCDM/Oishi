@@ -1,0 +1,2745 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Oishi.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Oishi.WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\default.css",
+      "PackagePath": "staticwebassets\\css\\skins\\default.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-app-landing.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-app-landing.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-architecture-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-architecture-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-architecture-interior.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-architecture-interior.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-auto-services.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-auto-services.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-band.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-band.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-barber.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-barber.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-beauty-salon.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-beauty-salon.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-business-consulting-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-business-consulting-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-business-consulting-3.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-business-consulting-3.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-business-consulting-4.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-business-consulting-4.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-business-consulting-5.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-business-consulting-5.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-business-consulting.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-business-consulting.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-church.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-church.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-cleaning-services.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-cleaning-services.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-coffee.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-coffee.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-construction-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-construction-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-construction.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-construction.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-10.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-10.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-11.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-11.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-12.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-12.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-13.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-13.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-14.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-14.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-15.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-15.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-16.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-16.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-17.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-17.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-18.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-18.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-19.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-19.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-20.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-20.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-21.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-21.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-3.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-3.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-4.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-4.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-5.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-5.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-6.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-6.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-7.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-7.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-8.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-8.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-9.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-9.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-corporate-hosting.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-corporate-hosting.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-creative-agency-1.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-creative-agency-1.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-dentist.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-dentist.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-digital-agency-2-dark.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-digital-agency-2-dark.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-digital-agency-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-digital-agency-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-digital-agency.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-digital-agency.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-education.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-education.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-event.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-event.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-finance.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-finance.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-gym.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-gym.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-hotel.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-hotel.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-industry-factory.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-industry-factory.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-insurance.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-insurance.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-it-services.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-it-services.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-landing.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-landing.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-law-firm-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-law-firm-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-law-firm.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-law-firm.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-medical-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-medical-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-medical.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-medical.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-one-page-agency.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-one-page-agency.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-personal-portfolio-1.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-personal-portfolio-1.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-personal-portfolio-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-personal-portfolio-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-photography.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-photography.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-product-landing.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-product-landing.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-real-estate.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-real-estate.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-renewable-energy.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-renewable-energy.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-restaurant.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-restaurant.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-resume-blue.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-resume-blue.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-resume-dark.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-resume-dark.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-resume-green.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-resume-green.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-resume-red.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-resume-red.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-resume.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-resume.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-sass.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-sass.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-seo-2.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-seo-2.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-seo-3.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-seo-3.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-seo.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-seo.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-startup-agency.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-startup-agency.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-transportation-logistic.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-transportation-logistic.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\skins\\skin-wedding.css",
+      "PackagePath": "staticwebassets\\css\\skins\\skin-wedding.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\theme-blog.css",
+      "PackagePath": "staticwebassets\\css\\theme-blog.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\theme-elements.css",
+      "PackagePath": "staticwebassets\\css\\theme-elements.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\theme-shop.css",
+      "PackagePath": "staticwebassets\\css\\theme-shop.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\1.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\10.png",
+      "PackagePath": "staticwebassets\\img\\icons\\10.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\2.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\3.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\4.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\5.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\6.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\7.png",
+      "PackagePath": "staticwebassets\\img\\icons\\7.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\8.png",
+      "PackagePath": "staticwebassets\\img\\icons\\8.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\9.png",
+      "PackagePath": "staticwebassets\\img\\icons\\9.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\icon-google.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-google.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\logo.png",
+      "PackagePath": "staticwebassets\\img\\icons\\logo.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\icons\\logoInverse.png",
+      "PackagePath": "staticwebassets\\img\\icons\\logoInverse.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\baking-tray.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\baking-tray.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\birthday-cake.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\birthday-cake.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\bowl.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\bowl.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\bowlfruit.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\bowlfruit.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\capsules.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\capsules.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\chopping-board.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\chopping-board.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\coffee-cup.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\coffee-cup.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\coffee-machine.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\coffee-machine.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\croissant.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\croissant.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\cruet.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\cruet.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\cutlery.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\cutlery.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\cutter-tool.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\cutter-tool.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\dining-chair.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\dining-chair.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\dishwasher.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\dishwasher.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\fabric.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\fabric.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\food-cart.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\food-cart.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\food-delivery.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\food-delivery.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\fridge.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\fridge.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\frig.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\frig.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\fryer.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\fryer.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\frying-pan.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\frying-pan.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\gas-stove.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\gas-stove.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\gloves.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\gloves.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\hob.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\hob.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\kitchen-hood.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\kitchen-hood.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\kitchen-timer.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\kitchen-timer.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\oven.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\oven.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\ovenfo.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\ovenfo.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\paper-towel.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\paper-towel.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\pizza-cutter.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\pizza-cutter.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\plate.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\plate.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\popcorn.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\popcorn.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\pots.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\pots.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\pressure-cooker.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\pressure-cooker.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\recycle-bin.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\recycle-bin.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\rolling-pin.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\rolling-pin.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\serving.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\serving.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\table.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\table.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\tissue-paper.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\tissue-paper.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\toaster.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\toaster.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\vacuum.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\vacuum.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\miniIcons\\wine-cooler.png",
+      "PackagePath": "staticwebassets\\img\\miniIcons\\wine-cooler.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\az_subtle.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\az_subtle.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\blizzard.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\blizzard.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\bright_squares.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\bright_squares.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\denim.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\denim.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\fancy.jpg",
+      "PackagePath": "staticwebassets\\img\\patterns\\fancy.jpg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\fancy_deboss.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\fancy_deboss.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\gray_jean.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\gray_jean.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\honey_im_subtle.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\honey_im_subtle.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\linedpaper.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\linedpaper.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\linen.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\linen.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\pw_maze_white.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\pw_maze_white.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\random_grey_variations.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\random_grey_variations.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\skin_side_up.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\skin_side_up.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\stitched_wool.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\stitched_wool.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\straws.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\straws.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\stripes.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\stripes.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\subtle_grunge.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\subtle_grunge.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\swirl_pattern.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\swirl_pattern.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\textured_stripes.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\textured_stripes.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\tiling.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\tiling.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\wild_oliva.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\wild_oliva.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\img\\patterns\\worn_dots.png",
+      "PackagePath": "staticwebassets\\img\\patterns\\worn_dots.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\edit.js",
+      "PackagePath": "staticwebassets\\js\\edit.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\help.js",
+      "PackagePath": "staticwebassets\\js\\help.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\theme.init.js",
+      "PackagePath": "staticwebassets\\js\\theme.init.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\views\\view.contact.js",
+      "PackagePath": "staticwebassets\\js\\views\\view.contact.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\views\\view.home.js",
+      "PackagePath": "staticwebassets\\js\\views\\view.home.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\views\\view.landing.js",
+      "PackagePath": "staticwebassets\\js\\views\\view.landing.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\js\\views\\view.shop.js",
+      "PackagePath": "staticwebassets\\js\\views\\view.shop.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\animate\\animate.compat.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.compat.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\CHANGE.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\CHANGE.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\README.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\README.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\bower.json"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\composer.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\composer.json"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\css\\star-rating.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\css\\star-rating.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\css\\star-rating.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\css\\star-rating.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\examples\\bs3.html",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\examples\\bs3.html"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\examples\\bs5.html",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\examples\\bs5.html"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\LANG.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\LANG.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\ar.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\bn.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\de.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\de.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\es.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\es.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\fa.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\fr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\gr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\gr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\it.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\it.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\kk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\ko.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\nl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\pl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\ro.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\ru.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\tr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\ua.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\locales\\zh.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\locales\\zh.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\star-rating.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\star-rating.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\js\\star-rating.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\js\\star-rating.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\LANG.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\LANG.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\ar.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\bn.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\de.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\de.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\es.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\es.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\fa.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\fr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\gr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\gr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\it.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\it.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\kk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\ko.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\nl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\pl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\ro.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\ru.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\tr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\ua.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\locales\\zh.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\locales\\zh.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\package.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\package.json"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fa\\theme.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-fas\\theme.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-gly\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-gly\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-gly\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-gly\\theme.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-svg\\theme.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-star-rating\\themes\\krajee-uni\\theme.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.countdown\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.countdown\\jquery.countdown.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.countdown\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.countdown\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate.unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate.unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate.unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate.unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_az.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_da.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_de.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_el.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_et.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_he.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_id.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_is.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_it.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_my.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_no.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_si.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_th.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_de.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_it.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\jquery.validate\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\magnific-popup\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\lib\\magnific-popup\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\lib\\magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\magnific-popup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\lib\\magnific-popup\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\magnific-popup\\magnific-popup.min.css",
+      "PackagePath": "staticwebassets\\lib\\magnific-popup\\magnific-popup.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\modernizr\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\lib\\modernizr\\modernizr.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\README.md",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\README.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\owl.carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owl.carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\plugins\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\lib\\plugins\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\plugins\\js\\plugins.min.js",
+      "PackagePath": "staticwebassets\\lib\\plugins\\js\\plugins.min.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\CODE_OF_CONDUCT.md",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\CODE_OF_CONDUCT.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\History.md",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\History.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\README.md",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\README.md"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\bower.json"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\css\\simple-line-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\css\\simple-line-icons.min.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.less",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.less"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\dist\\styles\\simple-line-icons.scss"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\index.html",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\index.html"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.css"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.less",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.less"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\docs\\styles\\simple-line-icons.scss"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\less\\simple-line-icons.less",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\less\\simple-line-icons.less"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\package.json",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\package.json"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scripts\\build.js",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scripts\\build.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scripts\\cheatsheet.template.html",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scripts\\cheatsheet.template.html"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scripts\\less2css.js",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scripts\\less2css.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scripts\\less2sass.js",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scripts\\less2sass.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scripts\\paths.js",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scripts\\paths.js"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\scss\\simple-line-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\scss\\simple-line-icons.scss"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\styles\\simple-line-icons.less",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\styles\\simple-line-icons.less"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\action-redo.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\action-redo.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\action-undo.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\action-undo.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\anchor.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\anchor.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-down-circle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-down-circle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-down.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-left-circle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-left-circle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-left.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-right-circle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-right-circle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-right.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-up-circle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-up-circle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\arrow-up.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\badge.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\badge.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\bag.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\bag.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\ban.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\ban.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\basket-loaded.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\basket-loaded.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\basket.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\basket.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\bell.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\bell.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\book-open.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\book-open.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\briefcase.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\briefcase.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\bubble.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\bubble.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\bubbles.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\bubbles.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\bulb.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\bulb.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\calculator.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\calculator.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\calender.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\calender.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\call-end.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\call-end.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\call-in.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\call-in.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\call-out.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\call-out.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\camera.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\camera.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\camrecorder.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\camrecorder.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\chart.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\chart.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\check.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\check.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\chemistry.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\chemistry.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\clock.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\clock.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\close.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\close.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\cloud-download.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\cloud-download.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\cloud-upload.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\cloud-upload.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\compass.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\compass.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-end.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-end.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-forward.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-forward.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-pause.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-pause.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-play.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-play.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-rewind.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-rewind.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\control-start.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\control-start.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\credit-card.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\credit-card.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\crop.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\crop.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\cup.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\cup.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\cursor-move.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\cursor-move.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\cursor.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\cursor.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\diamond.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\diamond.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\direction.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\direction.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\directions.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\directions.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\disc.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\disc.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\dislike.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\dislike.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\doc.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\doc.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\docs.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\docs.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\drawer.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\drawer.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\drop.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\drop.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\earphones-alt.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\earphones-alt.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\earphones.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\earphones.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\emotsmile.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\emotsmile.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\energy.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\energy.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\envelope-open.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\envelope-open.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\envolope-letter.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\envolope-letter.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\envolope.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\envolope.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\equalizer.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\equalizer.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\event.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\event.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\exclamation.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\exclamation.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\eye.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\eye.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\eyeglass.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\eyeglass.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\feed.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\feed.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\film.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\film.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\fire.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\fire.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\flag.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\flag.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\folder-alt.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\folder-alt.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\folder.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\folder.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\frame.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\frame.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\game-controller.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\game-controller.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\ghost.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\ghost.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\globe-alt.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\globe-alt.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\globe.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\globe.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\graduation.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\graduation.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\graph.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\graph.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\grid.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\grid.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\handbag.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\handbag.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\heart.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\heart.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\home.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\home.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\hourglass.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\hourglass.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\info.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\info.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\key.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\key.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\layers.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\layers.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\like.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\like.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\link.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\link.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\list.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\list.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\location-pin.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\location-pin.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\lock-open.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\lock-open.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\lock.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\lock.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\login.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\login.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\logout.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\logout.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\loop.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\loop.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\magic-wand.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\magic-wand.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\magnet.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\magnet.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\magnifier-add.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\magnifier-add.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\magnifier-remove.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\magnifier-remove.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\magnifier.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\magnifier.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\map.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\map.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\menu.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\menu.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\microphone.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\microphone.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\minus.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\minus.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\mouse.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\mouse.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\music-tone-alt.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\music-tone-alt.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\music-tone.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\music-tone.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\mustache.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\mustache.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\note.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\note.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\notebook.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\notebook.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\options-vertical.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\options-vertical.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\options.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\options.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\organization.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\organization.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\paper-clip.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\paper-clip.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\paper-plane.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\paper-plane.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\paypal.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\paypal.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\pencil.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\pencil.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\people.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\people.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\phone.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\phone.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\picture.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\picture.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\pie-chart.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\pie-chart.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\pin.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\pin.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\plane.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\plane.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\playlist.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\playlist.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\plus.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\plus.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\power.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\power.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\present.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\present.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\printer.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\printer.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\puzzle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\puzzle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\question.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\question.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\refresh.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\refresh.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\reload.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\reload.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\rocket.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\rocket.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\screen-desktop.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\screen-desktop.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\screen-smartphone.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\screen-smartphone.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\screen-tablet.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\screen-tablet.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\settings.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\settings.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\share-alt.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\share-alt.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\share.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\share.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\shield.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\shield.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\shuffle.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\shuffle.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\size-actual.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\size-actual.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\size-fullscreen.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\size-fullscreen.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-behance.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-behance.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-dribbble.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-dribbble.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-dropbox.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-dropbox.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-facebook.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-facebook.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-foursqare.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-foursqare.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-github.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-github.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-google.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-google.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-instagram.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-instagram.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-linkedin.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-linkedin.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-pintarest.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-pintarest.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-reddit.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-reddit.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-skype.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-skype.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-soundcloud.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-soundcloud.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-spotify.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-spotify.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-steam.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-steam.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-stumbleupon.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-stumbleupon.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-tumblr.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-tumblr.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-twitter.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-twitter.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-vkontakte.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-vkontakte.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\social-youtube.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\social-youtube.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\speech.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\speech.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\speedometer.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\speedometer.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\star.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\star.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\support.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\support.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\symble-female.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\symble-female.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\symbol-male.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\symbol-male.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\tag.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\tag.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\target.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\target.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\trash.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\trash.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\trophy.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\trophy.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\umbrella.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\umbrella.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\user-female.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\user-female.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\user-follow.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\user-follow.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\user-following.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\user-following.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\user-unfollow.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\user-unfollow.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\user.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\user.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\vector.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\vector.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\volume-1.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\volume-1.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\volume-2.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\volume-2.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\volume-off.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\volume-off.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\wallet.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\wallet.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\src\\svgs\\wrench.svg",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\src\\svgs\\wrench.svg"
+    },
+    {
+      "Id": "D:\\TrabalhoFinalCET\\Oishi\\Oishi\\Oishi\\Oishi.WebApp\\wwwroot\\lib\\simple-line-icons\\yarn.lock",
+      "PackagePath": "staticwebassets\\lib\\simple-line-icons\\yarn.lock"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Oishi.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Oishi.WebApp.props",
+      "PackagePath": "build\\Oishi.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Oishi.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Oishi.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Oishi.WebApp.props",
+      "PackagePath": "buildTransitive\\Oishi.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
