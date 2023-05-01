@@ -76,15 +76,13 @@ namespace Oishi.WebAPI.Controllers
                 userAccount.Username = updateUser.Username;
                 userAccount.Email = updateUser.Email;
                 userAccount.Phone = updateUser.Phone;
-                //userAccount.BirthDate   = updateUser.BirthDate;
             }
             if (!string.IsNullOrEmpty(updateUser.Password))
             {
                 UserInternalLogin? userInternalLogin = _userInternalLoginRepository.GetFirstById(id);
                 if (userInternalLogin != null)
                 {
-                    //TODO : Get password hash from hash function
-                    userInternalLogin.PasswordHash = updateUser.Password;
+                    userInternalLogin.PasswordHash = Oishi.Shared.Providers.CryptographyProvider.EncodeToBase64(updateUser.Password);
                 }
             }
 
