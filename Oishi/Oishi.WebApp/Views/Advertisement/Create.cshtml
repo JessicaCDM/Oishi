@@ -1,18 +1,88 @@
-﻿@{
+﻿@model Oishi.Shared.ViewModels.Advertisement.CreateViewModel
+
+@{
     ViewData["Title"] = "Create";
 }
-<div class="text-center">
-    <h1 class="display-4">Criar anúncio</h1>
-</div>
 
-<form>
+<div class="text-center">
+    @if (ViewData["EditView"] != null && (bool)ViewData["EditView"])
+    {
+        <h1 class="display-4">Editar anúncio</h1>
+    }
+    else
+    {
+        <h1 class="display-4">Criar anúncio</h1>
+    }
+</div>
+@if (ViewData["Success"] != null)
+{
+    <div class="text-success">@ViewData["Success"]</div>
+}
+<form asp-action="Create">
     <div class="form-group">
-        <label formaction="title">Título</label>
-		<input type="text" class="form-control" id="title" placeholder="Inserir título">
+        <label asp-for="Title">Título</label>
+		<input asp-for="Title" type="text" class="form-control" id="title" placeholder="Inserir título">
     </div>
     <div class="form-group">
-        <label for="subcategory">Selecione a subcategoria do artigo</label>
-        <select class="form-control" id="subcategory">
+
+        <label asp-for="SubcategoryId">Selecione a subcategoria do artigo</label>
+        @if (ViewData["EditView"] != null && (bool)ViewData["EditView"])
+        {
+            <input asp-for="SubcategoryId" type="text" class="form-control" id="subcategory" readonly="true">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>Preparação de alimentos</option>
+                <option>Pequeno-almoço</option>
+                <option>Micro-ondas - Mini-fornos</option>
+                <option>Aspiradores</option>
+                <option>Máquinas de café</option>
+                <option>Funcooking</option>
+                <option>Placas</option>
+                <option>Fornos</option>
+                <option>Frigoríficos - Arcas</option>
+                <option>Fogões</option>
+                <option>Exaustores</option>
+                <option>Máquinas de loiça</option>
+                <option>Catering</option>
+                <option>Pastelaria</option>
+                <option>Confeitaria</option>
+                <option>Caixas - Frascos</option>
+                <option>Utensílios de servir</option>
+                <option>Utensílios de bancada</option>
+                <option>Facas - Tábuas de cortar</option>
+                <option>Outros utensílios</option>
+                <option>Faqueiros - Talheres</option>
+                <option>Chávenas - Tigelas - Canecas - Copos</option>
+                <option>Loiça</option>
+                <option>Galheteiros - Açucareiros - Saleiros - Pimenteiros</option>
+                <option>Outros de mesa</option>
+                <option>Caixotes - Cestos - Baldes</option>
+                <option>Carrinhos de apoio</option>
+                <option>Garrafeira</option>
+                <option>Bancos - Cadeiras</option>
+                <option>Mesas</option>
+                <option>Móveis de apoio</option>
+                <option>Balanças - Temporizadores</option>
+                <option>Utensílios</option>
+                <option>Formas</option>
+                <option>Aventais -  Pegas - Panos - Coxins</option>
+                <option>Tapetes</option>
+                <option>Toalhas - Guardanapos - Individuais de mesa</option>
+                <option>Assadeiras</option>
+                <option>Trens</option>
+                <option>Caçarolas - Panelas</option>
+                <option>Frigideiras - Grelhadores</option>
+            </input>
+        }
+        else
+        {
+            <select asp-for="SubcategoryId" class="form-control" id="subcategory">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
             <option>Preparação de alimentos</option>
             <option>Pequeno-almoço</option>
             <option>Micro-ondas - Mini-fornos</option>
@@ -55,21 +125,22 @@
             <option>Caçarolas - Panelas</option>
             <option>Frigideiras - Grelhadores</option>
             </select>
+        }
     </div>
 
     <div class="form-group">
-        <label for="municipalityorcity">Inserir localidade</label>
-        <input type="text" class="form-control" id="municipalityorcity" >
+        <label asp-for="MunicipalityOrCityId">Inserir localidade</label>
+        <input asp-for="MunicipalityOrCityId"  type="text" class="form-control" id="municipalityorcity">
     </div>
 
     <div class="form-group">
-        <label for="price">Inserir preço</label>
-        <input type="text" class="form-control" id="price" placeholder="Euros">
+        <label asp-for="Price">Inserir preço</label>
+        <input asp-for="Price" type="text" class="form-control" id="price" placeholder="Euros">
     </div>
 
     <div class="form-group">
-        <label for="description">Descrição</label>
-        <textarea class="form-control" id="description" rows="3"></textarea>
+        <label asp-for="Description">Descrição</label>
+        <textarea asp-for="Description" class="form-control" id="description" rows="3"></textarea>
     </div>
 
     <div class="form-group">
@@ -78,8 +149,15 @@
     </div>
 
     <div align="left">
-        <button class="btn btn-secondary btn-lg" type="submit" style="background-color: lightpink;">Criar</button>
+        @if (ViewData["EditView"] != null && (bool)ViewData["EditView"])
+        {
+            <button class="btn btn-secondary btn-lg" type="submit" style="position: relative; left: 93%; background-color: lightpink;">Editar</button>
+        }
+        else
+        {
+            <button class="btn btn-secondary btn-lg" type="submit" style="position: relative; left: 93%; background-color: lightpink;">Criar</button>
+        }
+        
     </div>
-</form>
-    
-
+    <br />
+</form>   
