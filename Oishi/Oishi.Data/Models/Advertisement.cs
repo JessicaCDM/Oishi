@@ -36,7 +36,11 @@ namespace Oishi.Data.Models
         public Shared.Enums.AdvertisementStatus AdvertisementStatus { get; set; }
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
+        [NotMapped]
+        public string MunicipalityOrCityName => MunicipalityOrCity.Name;
         public int SubcategoryId { get; set; }
+        [NotMapped]
+        public string SubcategoryDescription => Subcategory.Description;
 
 
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
