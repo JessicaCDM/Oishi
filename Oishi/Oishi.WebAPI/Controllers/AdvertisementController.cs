@@ -23,9 +23,9 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public Data.Models.Advertisement[] GetFiltered(int? subCategoryId)
+        public Data.Models.Advertisement[] GetFiltered(int? subCategoryId, int? favoriteUserAccountId)
         {
-            return _advertisementProvider.GetFiltered(subCategoryId).ToArray();
+            return _advertisementProvider.GetFiltered(subCategoryId, favoriteUserAccountId).ToArray();
         }
 
         [HttpGet]

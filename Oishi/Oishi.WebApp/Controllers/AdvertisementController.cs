@@ -14,6 +14,7 @@ namespace Oishi.WebApp.Controllers
         {
             _OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
         }
+
         public async Task<IActionResult> Index(int? id)
         {
             Shared.ViewModels.Advertisement.AdvertisementIndexViewModel model = new Shared.ViewModels.Advertisement.AdvertisementIndexViewModel();
@@ -32,11 +33,13 @@ namespace Oishi.WebApp.Controllers
                 string? apiResponse;
                 if (id.HasValue)
                 {
-                    apiResponse = await webAPIProvider.Get($"Advertisement/GetFiltered?subCategoryId={id}");
+                    // TODO: Replace '3' with the real UserAccountId
+                    apiResponse = await webAPIProvider.Get($"Advertisement/GetFiltered?subCategoryId={id}&favoriteUserAccountId={3}");
                 }
                 else
                 {
-                    apiResponse = await webAPIProvider.Get($"Advertisement/Get");
+                    // TODO: Replace '3' with the real UserAccountId
+                    apiResponse = await webAPIProvider.Get($"Advertisement/GetFiltered?favoriteUserAccountId={3}");
                 }
                 
                 if (apiResponse != null)

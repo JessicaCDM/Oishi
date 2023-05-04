@@ -25,11 +25,16 @@ namespace Oishi.Data.Providers
                 .ToList();
         }
 
-        public List<Models.Advertisement> GetFiltered(int? subCategoryId)
+        public List<Models.Advertisement> GetFiltered(int? subCategoryId, int? favoriteUserAccountId)
         {
             IQueryable<Models.Advertisement> advertisements = _db.Advertisements
                 .Include(x => x.Subcategory)
                 .Include(x => x.MunicipalityOrCity);
+
+            if (favoriteUserAccountId.HasValue)
+            {
+                advertisements = advertisements.Include(x => x.Favorites);
+            }
 
             if (subCategoryId.HasValue)
             {

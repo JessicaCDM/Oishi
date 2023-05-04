@@ -70,14 +70,14 @@
                                             <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">@advertisement.Title</a></h3>
                                         </div>
                                         <!-- ADD TO FAVOURITES -->
-                                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                                        <a onclick="javascript:ToggleFavorite(@(advertisement.Id))" class="text-decoration-none text-color-default text-color-hover-dark text-4" style="cursor:pointer;"><i id="advertisement@(advertisement.Id)favicon" class="@(advertisement.Favorites.Any() ? "fa-solid" : "far") fa-heart" style="color:red;"></i></a>
                                     </div>
                                     <p class="price text-5 mb-3">
                                         <span class="sale text-color-dark font-weight-semi-bold">@advertisement.Price €</span>
                                     </p>
                                 </div>
                             </div>
-                            
+
                         }
 
                     </div>
@@ -97,3 +97,7 @@
         </div>
     </div>
 </div>
+
+@section scripts {
+    <script src="/js/views/advertisement/index.js"></script>
+}
