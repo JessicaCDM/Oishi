@@ -23,6 +23,12 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
+        public Data.Models.Advertisement[] GetFiltered(int? subCategoryId)
+        {
+            return _advertisementProvider.GetFiltered(subCategoryId).ToArray();
+        }
+
+        [HttpGet]
         public Data.Models.Advertisement? GetFirst(int id)
         {
             return _advertisementProvider.GetFirstById(id);
