@@ -28,7 +28,7 @@
         <label asp-for="SubcategoryId">Selecione a subcategoria do artigo</label>
         @if (ViewData["EditView"] != null && (bool)ViewData["EditView"])
         {
-            <input asp-for="SubcategoryId" type="text" class="form-control" id="subcategory" readonly="true">
+            <select asp-for="SubcategoryId" type="text" class="form-control" id="subcategory" readonly="true">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -74,7 +74,7 @@
                 <option>Trens</option>
                 <option>Caçarolas - Panelas</option>
                 <option>Frigideiras - Grelhadores</option>
-            </input>
+            </select>
         }
         else
         {

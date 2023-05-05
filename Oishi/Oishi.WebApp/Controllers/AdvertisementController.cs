@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.FlowAnalysis;
 using Newtonsoft.Json;
-using Oishi.Shared.ViewModels.Account;
-
 
 namespace Oishi.WebApp.Controllers
 {
@@ -41,7 +38,7 @@ namespace Oishi.WebApp.Controllers
                     // TODO: Replace '3' with the real UserAccountId
                     apiResponse = await webAPIProvider.Get($"Advertisement/GetFiltered?favoriteUserAccountId={3}");
                 }
-                
+
                 if (apiResponse != null)
                     advertisements = JsonConvert.DeserializeObject<Shared.ViewModels.Advertisement.AdvertisementViewModel[]>(apiResponse);
             }
@@ -62,8 +59,9 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
+        // POST Advertisement/Create
         [HttpPost]
-        public async Task<IActionResult> Create(CreateViewModel model)
+        public async Task<IActionResult> Create(Shared.ViewModels.Advertisement.CreateViewModel model)
         {
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
             {
@@ -72,20 +70,20 @@ namespace Oishi.WebApp.Controllers
 
                 ViewData["Success"] = "Anúncio criado com sucesso!";
             }
-                        
+
             return View();
         }
 
-        // GET Advertisement/Update?Id=123
+        // GET Advertisement/Edit?Id=123
 
         public async Task<IActionResult> Edit(int id)
         {
-            CreateViewModel? model = null;
+            Shared.ViewModels.Advertisement.CreateViewModel? model = null;
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
             {
                 string? response = await webAPIProvider.Get($"Advertisement/GetFirst?id={id}");
                 if (response != null)
-                    model = JsonConvert.DeserializeObject<CreateViewModel>(response);
+                    model = JsonConvert.DeserializeObject<Shared.ViewModels.Advertisement.CreateViewModel>(response);
             }
             ViewData["EditView"] = true;
 
@@ -96,10 +94,9 @@ namespace Oishi.WebApp.Controllers
             return View("Create", model);
         }
 
-        // POST Advertisement/Update?Id=123
+        // POST Advertisement/Edit?Id=123
         [HttpPost]
-
-        public async Task<IActionResult> Edit(CreateViewModel model)
+        public async Task<IActionResult> Edit(Shared.ViewModels.Advertisement.CreateViewModel model)
         {
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
             {
@@ -111,12 +108,5 @@ namespace Oishi.WebApp.Controllers
 
             return View();
         }
-
-
-
-
-
-
-
     }
 }
