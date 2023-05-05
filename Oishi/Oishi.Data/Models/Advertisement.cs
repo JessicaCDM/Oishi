@@ -38,8 +38,8 @@ namespace Oishi.Data.Models
         public ICollection<Image>? Images { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<Message>? Messages { get; set; }
-        public UserAccount UserAccount { get; set; }
-        public MunicipalityOrCity MunicipalityOrCity { get; set; }
-        public Subcategory Subcategory { get; set; }
+        public UserAccount? UserAccount { get; set; }
+        public MunicipalityOrCity? MunicipalityOrCity { get; set; }
+        public Subcategory? Subcategory { get; set; }
     }
 }

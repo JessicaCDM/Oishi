@@ -32,12 +32,12 @@ namespace Oishi.Data.Models
  
 
         public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
-        public ICollection<Advertisement> Advertisements { get; set; }
+        public ICollection<Advertisement>? Advertisements { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<Message>? ReceivedMessages { get; set; }
         public ICollection<Message>? SentMessages { get; set; }
         public UserInternalLogin? UserInternalLogin { get; set; }
-        public Profile Profile { get; set; }
+        public Profile? Profile { get; set; }
 
     }
 }

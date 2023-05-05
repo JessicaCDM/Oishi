@@ -10,8 +10,8 @@ namespace Oishi.Data.Models
         public int ExternalProviderId { get; set; }
 
 
-        public UserAccount UserAccount { get; set; }
-        public ExternalProvider ExternalProvider { get; set; }
+        public UserAccount? UserAccount { get; set; }
+        public ExternalProvider? ExternalProvider { get; set; }
 
     }
 }

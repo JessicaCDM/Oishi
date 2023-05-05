@@ -13,6 +13,6 @@ namespace Oishi.Data.Models
         [StringLength(255)]
         public string EndpointUrl { get; set; }
 
-        public ICollection<UserExternalLogin> UserExternalLogins { get; set; }
+        public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
     }
 }

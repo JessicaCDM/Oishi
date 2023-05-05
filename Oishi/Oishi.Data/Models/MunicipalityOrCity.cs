@@ -13,8 +13,8 @@ namespace Oishi.Data.Models
         public int RegionId { get; set; }
 
 
-        public Region Region { get; set; }
-        public ICollection<Advertisement> Advertisements { get; set; }
+        public Region? Region { get; set; }
+        public ICollection<Advertisement>? Advertisements { get; set; }
 
     }
 }
