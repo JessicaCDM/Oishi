@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Oishi.Data.Contexts;
-using Oishi.Data.Models;
-using Oishi.Data.Providers;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Oishi.WebAPI.Controllers
 {

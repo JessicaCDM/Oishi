@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Oishi.Data.Models;
-using System.Reflection.Emit;
 
 namespace Oishi.Data.Contexts
 {

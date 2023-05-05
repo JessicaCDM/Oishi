@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Oishi.Data.Contexts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Oishi.Data.Providers
 {

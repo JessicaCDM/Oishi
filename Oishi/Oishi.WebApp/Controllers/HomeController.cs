@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Oishi.WebApp.Models;
-using System.Configuration;
 using System.Diagnostics;
 
 namespace Oishi.WebApp.Controllers

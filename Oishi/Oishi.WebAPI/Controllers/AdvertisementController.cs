@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Oishi.Data.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using Oishi.Shared.ViewModels.Advertisement;
 
 namespace Oishi.WebAPI.Controllers

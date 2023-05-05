@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Oishi.Shared.ViewModels.Account;
-using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
 {

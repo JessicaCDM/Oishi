@@ -1,7 +1,5 @@
 ﻿using Oishi.Data.Contexts;
 using Oishi.Data.Models;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Oishi.Data.Providers
 {
