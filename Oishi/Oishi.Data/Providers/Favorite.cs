@@ -1,4 +1,5 @@
-﻿using Oishi.Data.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Oishi.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +46,32 @@ namespace Oishi.Data.Providers
             }
 
             return false;
+        }
+
+        // Returns true if favorite added, returns false if favorite removed
+        public bool Toggle(int userAccountId, int advertisementId)
+        {
+            bool result = false;
+
+            if (_db.Favorites.Any(x => x.UserAccountId == userAccountId && x.AdvertisementId == advertisementId))
+            {
+                _db.Favorites.Remove(_db.Favorites.FirstOrDefault(x => x.UserAccountId == userAccountId && x.AdvertisementId == advertisementId));
+                result = false;
+            }
+            else
+            {
+                _db.Favorites.Add(new Models.Favorite()
+                {
+                    AdvertisementId = advertisementId,
+                    UserAccountId = userAccountId,
+                    Date = DateTime.Now
+                });
+                result = true;
+            }
+
+            _db.SaveChanges();
+
+            return result;
         }
     }
 }

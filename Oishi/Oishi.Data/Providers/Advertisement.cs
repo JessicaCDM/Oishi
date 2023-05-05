@@ -1,4 +1,5 @@
-﻿using Oishi.Data.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using Oishi.Data.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,29 @@ namespace Oishi.Data.Providers
 
         public List<Models.Advertisement> Get()
         {
-            return _db.Advertisements.ToList();
+            return _db.Advertisements
+                .Include(x => x.Subcategory)
+                .Include(x => x.MunicipalityOrCity)
+                .ToList();
+        }
+
+        public List<Models.Advertisement> GetFiltered(int? subCategoryId, int? favoriteUserAccountId)
+        {
+            IQueryable<Models.Advertisement> advertisements = _db.Advertisements
+                .Include(x => x.Subcategory)
+                .Include(x => x.MunicipalityOrCity);
+
+            if (favoriteUserAccountId.HasValue)
+            {
+                advertisements = advertisements.Include(x => x.Favorites);
+            }
+
+            if (subCategoryId.HasValue)
+            {
+                advertisements = advertisements.Where(x => x.SubcategoryId == subCategoryId);
+            }
+
+            return advertisements.ToList();
         }
 
         public Models.Advertisement? GetFirstById(int id)

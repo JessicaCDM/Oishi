@@ -1,5 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Oishi.Data.Contexts;
+using Oishi.Data.Models;
+using Oishi.Data.Providers;
+using System.Linq;
 
 namespace Oishi.WebAPI.Controllers
 {
@@ -8,7 +13,7 @@ namespace Oishi.WebAPI.Controllers
     public class CategoryController : ControllerBase
     {
         private Data.Providers.Category _categoryProvider;
-        
+
         public CategoryController(Data.Contexts.DatabaseContext db)
         {
             _categoryProvider = new Data.Providers.Category(db);
@@ -42,7 +47,7 @@ namespace Oishi.WebAPI.Controllers
         {
             Data.Models.Category newCategory = new Data.Models.Category()
             {
-                Id= id,
+                Id = id,
                 Description = description,
             };
 
@@ -54,5 +59,6 @@ namespace Oishi.WebAPI.Controllers
         {
             return _categoryProvider.Delete(id);
         }
+
     }
 }

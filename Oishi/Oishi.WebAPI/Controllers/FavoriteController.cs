@@ -43,5 +43,11 @@ namespace Oishi.WebAPI.Controllers
         {
             return _favoriteProvider.Delete(userAccountId, advertisementId);
         }
+
+        [HttpGet]
+        public bool Toggle(int userAccountId, int advertisementId)
+        {
+            return _favoriteProvider.Toggle(userAccountId, advertisementId);
+        }
     }
 }
