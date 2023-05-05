@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Oishi.Shared.ViewModels.Category.CategoryViewModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -7,323 +8,38 @@
 
     <div class="container">
         <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3">
-            <div class="col pt-3">
-                <div id="small-appliances" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span><img src="~/img/icons/1.png" /></span>
-                    <span class="d-flex justify-content-center">Pequenos Eletrodomésticos</span>
-                </div>
-            </div>
 
-            <div class="col pt-3">
-                <div id="large-appliances" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/2.png" /></span>
-                    <span class="d-flex justify-content-center">Grandes Eletrodomésticos</span>
+            @foreach (var category in Model)
+            {
+                <div class="col pt-3">
+                    <div id="@(Oishi.Shared.Providers.StringHelperProvider.RemoveDiacriticsAndSpaces(category.Description))" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
+                        <span><img src="~/img/categories/@(category.Id).png" /></span>
+                        <span class="d-flex justify-content-center">@(category.Description)</span>
+                    </div>
                 </div>
-            </div>
+            }
 
-            <div class="col pt-3">
-                <div id="services" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/3.png" /></span>
-                    <span class="d-flex justify-content-center">Serviços</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="utensils" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/4.png" /></span>
-                    <span class="d-flex justify-content-center">Utensílios</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="tableI" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/5.png" /></span>
-                    <span class="d-flex justify-content-center">Mesa</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="stowage" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/6.png" /></span>
-                    <span class="d-flex justify-content-center">Arrumação Cozinha</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="furniture" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/7.png" /></span>
-                    <span class="d-flex justify-content-center">Mobiliário Cozinha</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="pastry" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/8.png" /></span>
-                    <span class="d-flex justify-content-center">Pastelaria</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="textile" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/9.png" /></span>
-                    <span class="d-flex justify-content-center">Têxtil</span>
-                </div>
-            </div>
-
-            <div class="col pt-3">
-                <div id="stove-utilities" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
-                    <span> <img src="~/img/icons/10.png" /></span>
-                    <span class="d-flex justify-content-center">Utilitários Fogão - Forno</span>
-                </div>
-            </div>
         </div>
         <div id="sub-categories" class="pb-5">
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category small-appliances">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/fryer.png" class="me-md-2" /><a href="#">Preparação de alimentos</a></li>
-                        <li><img src="~/img/miniicons/coffee-machine.png" class="me-md-2" /><a href="#">Máquinas de café</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/toaster.png" class="me-md-2" /><a href="#">Pequeno Almoço</a></li>
-                        <li><img src="~/img/miniicons/popcorn.png" class="me-md-2" /><a href="#">Funcooking</a></li>
 
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/oven.png" class="me-md-2" /><a href="#">Micro-ondas - Mini Fornos</a></li>
+            @foreach (var category in Model)
+            {
+                <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category @(Oishi.Shared.Providers.StringHelperProvider.RemoveDiacriticsAndSpaces(category.Description))">
 
-                    </ul>
+                    @foreach (var subCategory in category.SubCategories)
+                    {
+                        <div class="col">
+                            <ul class="sub-category-list-item nodecor">
+                                <li><img src="~/img/subcategories/@(subCategory.Id).png" class="me-md-2" /><a href="#">@(subCategory.Description)</a></li>
+                            </ul>
+                        </div>
+                    }
                 </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li><img src="~/img/miniicons/vacuum.png" class="me-md-2" /><a href="#">Aspiradores</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category large-appliances">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/hob.png" class="me-md-2" /><a href="#">Placas</a></li>
-                        <li><img src="~/img/miniicons/kitchen-hood.png" class="me-md-2" /><a href="#">Exaustores</a></li>
-
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/gas-stove.png" class="me-md-2" /><a href="#">Fornos</a></li>
-                        <li><img src="~/img/miniicons/dishwasher.png" class="me-md-2" /><a href="#">Máquinas de loiça</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/frig.png" class="me-md-2" /><a href="#">Frigoríficos - Arcas</a></li>
-                        <li><img src="~/img/miniicons/ovenfo.png" class="me-md-2" /><a href="#">Fogões</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/ovenfo.png" class="me-md-2" /><a href="#">Fogões</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category services">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/food-delivery.png" class="me-md-2" /><a href="#">Catering</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/croissant.png" class="me-md-2" /><a href="#">Pastelaria</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/birthday-cake.png" class="me-md-2" /><a href="#">Confeitaria</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category utensils">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/capsules.png" class="me-md-2" /><a href="#">Caixas - Frascos</a></li>
-                        <li><img src="~/img/miniicons/pizza-cutter.png" class="me-md-2" /><a href="#">Outros utensílios</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/serving.png" class="me-md-2" /><a href="#">Utensílios de servir</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/bowl.png" class="me-md-2" /><a href="#">Utensílios de banca</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/chopping-board.png" class="me-md-2" /><a href="#">Facas - Tábuas de cortar</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category tableI">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/capsules.png" class="me-md-2" /><a href="#">Faqueiros - Talheres</a></li>
-                        <li class="pb-3"><img src="~/img/miniicons/paper-towel.png" class="me-md-2" /><a href="#">Outros de mesa</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/coffee-cup.png" class="me-md-2" /><a href="#">Chávenas - Tigelas - Canecas - Copos</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/plate.png" class="me-md-2" /><a href="#">Loiças</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/cruet.png" class="me-md-2" /><a href="#">Galheteiros - Açucareiros - Saleiros - Pimenteiros</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category stowage">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/recycle-bin.png" class="me-md-2" /><a href="#">Caixotes - Cestos - Baldes</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/food-cart.png" class="me-md-2" /><a href="#">Carrinhos de Apoio</a></li>
-
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/wine-cooler.png" class="me-md-2" /><a href="#">Garrafeiras</a></li>
-
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category furniture">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/dining-chair.png" class="me-md-2" /><a href="#">Bancos - Cadeiras</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/table.png" class="me-md-2" /><a href="#">Mesas</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/fridge.png" class="me-md-2" /><a href="#">Móveis de Apoio</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category pastry">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/kitchen-timer.png" class="me-md-2" /><a href="#">Balanças - Temporizadores</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/rolling-pin.png" class="me-md-2" /><a href="#">Utensílios</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/cutter-tool.png" class="me-md-2" /><a href="#">Formas</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category textile">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/gloves.png" class="me-md-2" /><a href="#">Aventais - Pegas - Panos - Coxins</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/fabric.png" class="me-md-2" /><a href="#">Tapetes</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/tissue-paper.png" class="me-md-2" /><a href="#">Toalhas - Guardanapos - Indivíduais de Mesa</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category  stove-utilities">
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/baking-tray.png" class="me-md-2" /><a href="#">Assadeiras</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/pots.png" class="me-md-2" /><a href="#">Trens</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/pressure-cooker.png" class="me-md-2" /><a href="#">Caçarolas - Panelas</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="sub-category-list-item nodecor">
-                        <li class="pb-3"><img src="~/img/miniicons/frying-pan.png" class="me-md-2" /><a href="#">Frigideiras - Grelhadores</a></li>
-                    </ul>
-                </div>
-            </div>
-
+            }
         </div>
     </div>
 </div>
 
-
-
-
-
 @section scripts{
     <script src="/js/index.js"></script>
-
-    }
+}
