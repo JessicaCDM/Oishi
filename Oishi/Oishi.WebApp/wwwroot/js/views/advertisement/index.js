@@ -15,3 +15,11 @@
         }
     });
 }
+
+
+$(document).ready(function () {
+    $('.submenu').slideToggle('fast');
+    $('.menu').click(function () {
+        $(this).siblings('.submenu').slideToggle('fast');
+    });
+});
