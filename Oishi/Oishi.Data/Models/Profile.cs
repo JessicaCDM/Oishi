@@ -12,7 +12,7 @@ namespace Oishi.Data.Models
         public string Code { get; set; }
 
 
-        public ICollection<UserAccount> UserAccounts { get; set; }
+        public ICollection<UserAccount>? UserAccounts { get; set; }
 
     }
 }

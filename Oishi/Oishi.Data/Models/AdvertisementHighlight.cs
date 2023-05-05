@@ -20,8 +20,8 @@ namespace Oishi.Data.Models
         [Column(TypeName = "decimal(4,2)")]
         public decimal AmountTax { get; set; }
 
-        public Advertisement Advertisement { get; set; }
-        public HighlightType HighlightType { get; set; }
+        public Advertisement? Advertisement { get; set; }
+        public HighlightType? HighlightType { get; set; }
 
     }
 }

@@ -11,7 +11,7 @@ namespace Oishi.Data.Models
         [StringLength(48)]
         public string Description { get; set; }
 
-        public ICollection<Subcategory> SubCategories { get; set; }
+        public ICollection<Subcategory>? SubCategories { get; set; }
 
     }
 }

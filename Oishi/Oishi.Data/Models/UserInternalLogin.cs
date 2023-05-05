@@ -19,6 +19,6 @@ namespace Oishi.Data.Models
         public Guid? RecoveryToken { get; set; }
 
 
-        public UserAccount UserAccount { get; set; }
+        public UserAccount? UserAccount { get; set; }
     }
 }

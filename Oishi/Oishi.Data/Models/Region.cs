@@ -12,7 +12,7 @@ namespace Oishi.Data.Models
         public string Name { get; set; }
 
 
-        public ICollection<MunicipalityOrCity> MunicipalityOrCities { get; set; }
+        public ICollection<MunicipalityOrCity>? MunicipalityOrCities { get; set; }
 
     }
 }

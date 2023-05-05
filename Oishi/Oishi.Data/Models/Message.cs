@@ -19,9 +19,9 @@ namespace Oishi.Data.Models
         public DateTime Date { get; set; }
 
         
-        public Advertisement Advertisement { get; set; }
-        public UserAccount SenderUserAccount { get; set; }
-        public UserAccount ReceiverUserAccount { get; set; }
+        public Advertisement? Advertisement { get; set; }
+        public UserAccount? SenderUserAccount { get; set; }
+        public UserAccount? ReceiverUserAccount { get; set; }
 
     }
 }

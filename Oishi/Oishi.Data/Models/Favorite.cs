@@ -15,8 +15,8 @@ namespace Oishi.Data.Models
 
         
 
-        public Advertisement Advertisement { get; set; }
-        public UserAccount UserAccount { get; set; }
+        public Advertisement? Advertisement { get; set; }
+        public UserAccount? UserAccount { get; set; }
 
     }
 }
