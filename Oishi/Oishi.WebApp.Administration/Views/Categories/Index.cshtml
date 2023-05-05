@@ -22,9 +22,9 @@
                     @Html.DisplayFor(modelItem => item.Description)
                 </td>
                 <td class="text-end">
-                    <a class="btn btn-xs btn-outline-primary" asp-action="Edit" role="button"><i class="fa-regular fa-pen-to-square"></i></a>
-                    <a class="btn btn-xs btn-outline-info" asp-action="Details" role="button"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
-                    <a class="btn btn-xs btn-outline-danger" asp-action="Delete" role="button"><i class="fa-solid fa-trash-can"></i></a>
+                    <a class="btn btn-xs btn-outline-primary" asp-route-id="@item.Id" asp-action="Edit" role="button"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a class="btn btn-xs btn-outline-info" asp-route-id="@item.Id" asp-action="Details" role="button"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="btn btn-xs btn-outline-danger" asp-route-id="@item.Id" asp-action="Delete" role="button"><i class="fa-solid fa-trash-can"></i></a>
                 </td>
             </tr>
         }
