@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Oishi.Data.Models;
+using Oishi.Shared.ViewModels.Advertisement;
 
 namespace Oishi.WebAPI.Controllers
 {
@@ -34,27 +35,27 @@ namespace Oishi.WebAPI.Controllers
             return _advertisementProvider.GetFirstById(id);
         }
 
-        [HttpGet]
-        public Data.Models.Advertisement Insert(string title, string description, decimal price, int userAccount, int municipalityOrCity, int subCategory)
+        [HttpPost]
+        public Data.Models.Advertisement Insert(CreateViewModel model)
         {
             Data.Models.Advertisement newAdvertisement = new Data.Models.Advertisement()
             {
-                Title = title,
-                Description = description,
-                Price = price,
+                Title = model.Title,
+                Description= model.Description,
+                Price = model.Price,
                 AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove,
-                UserAccountId = userAccount,
-                MunicipalityOrCityId = municipalityOrCity,
-                SubcategoryId = subCategory,
+                UserAccountId = 3,
+                MunicipalityOrCityId = model.MunicipalityOrCityId,
+                SubcategoryId = model.SubcategoryId,
 
             };
-
+            
             // newAdvertisement = _advertisementProvider.Insert(newAdvertisement);
 
             return _advertisementProvider.Insert(newAdvertisement);
         }
 
-        [HttpGet]
+        [HttpPost]
         public Data.Models.Advertisement? Update(int id, string title, string description, decimal price, int municipalityOrCity)
         {
             Data.Models.Advertisement newAdvertisement = new Data.Models.Advertisement()

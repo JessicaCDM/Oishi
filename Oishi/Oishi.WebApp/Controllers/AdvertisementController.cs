@@ -56,9 +56,67 @@ namespace Oishi.WebApp.Controllers
             throw new Exception();
         }
 
+        // GET Advertisement/Create
         public IActionResult Create()
         {
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateViewModel model)
+        {
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                string? response = await webAPIProvider.Post($"Advertisement/Insert", model);
+                System.Diagnostics.Debug.WriteLine(response);
+
+                ViewData["Success"] = "Anúncio criado com sucesso!";
+            }
+                        
+            return View();
+        }
+
+        // GET Advertisement/Update?Id=123
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            CreateViewModel? model = null;
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                string? response = await webAPIProvider.Get($"Advertisement/GetFirst?id={id}");
+                if (response != null)
+                    model = JsonConvert.DeserializeObject<CreateViewModel>(response);
+            }
+            ViewData["EditView"] = true;
+
+            if (model == null)
+            {
+                throw new Exception("Houve um erro");
+            }
+            return View("Create", model);
+        }
+
+        // POST Advertisement/Update?Id=123
+        [HttpPost]
+
+        public async Task<IActionResult> Edit(CreateViewModel model)
+        {
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                string? response = await webAPIProvider.Post($"Advertisement/Update", model);
+                System.Diagnostics.Debug.WriteLine(response);
+
+                ViewData["Success"] = "Anúncio editado com sucesso!";
+            }
+
+            return View();
+        }
+
+
+
+
+
+
+
     }
 }
