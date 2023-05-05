@@ -14,7 +14,7 @@ namespace Oishi.Data.Models
         public string PasswordHash { get; set; }
 
         [StringLength(128)]
-        public Guid ConfirmationToken { get; set; }
+        public string ConfirmationToken { get; set; }
 
         [StringLength(128)]
         public string? RecoveryToken { get; set; }
