@@ -12,14 +12,14 @@ using Oishi.Data.Contexts;
 namespace Oishi.Data.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230430221423_addMessageAndFavoriteDefinition")]
-    partial class addMessageAndFavoriteDefinition
+    [Migration("20230505171101_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.0")
+                .HasAnnotation("ProductVersion", "6.0.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -401,19 +401,18 @@ namespace Oishi.Data.Migrations
                     b.Property<int>("UserAccountId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ConfirmationToken")
-                        .IsRequired()
+                    b.Property<Guid>("ConfirmationToken")
                         .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
 
-                    b.Property<string>("RecoveryToken")
+                    b.Property<Guid?>("RecoveryToken")
                         .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("UserAccountId");
 
@@ -537,7 +536,7 @@ namespace Oishi.Data.Migrations
             modelBuilder.Entity("Oishi.Data.Models.Subcategory", b =>
                 {
                     b.HasOne("Oishi.Data.Models.Category", "Category")
-                        .WithMany("Subcategories")
+                        .WithMany("SubCategories")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -599,7 +598,7 @@ namespace Oishi.Data.Migrations
 
             modelBuilder.Entity("Oishi.Data.Models.Category", b =>
                 {
-                    b.Navigation("Subcategories");
+                    b.Navigation("SubCategories");
                 });
 
             modelBuilder.Entity("Oishi.Data.Models.ExternalProvider", b =>

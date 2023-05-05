@@ -60,7 +60,7 @@ namespace Oishi.WebAPI.Controllers
                 UserAccountStatus = Shared.Enums.UserAccountStatus.EmailToApprove,
                 UserInternalLogin = new UserInternalLogin()
                 {
-                    ConfirmationToken = Guid.NewGuid().ToString(),
+                    ConfirmationToken = Guid.NewGuid(),
                     PasswordHash = Shared.Providers.CryptographyProvider.EncodeToBase64(model.Password)
                 }
             };

@@ -399,19 +399,18 @@ namespace Oishi.Data.Migrations
                     b.Property<int>("UserAccountId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ConfirmationToken")
-                        .IsRequired()
+                    b.Property<Guid>("ConfirmationToken")
                         .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
 
-                    b.Property<string>("RecoveryToken")
+                    b.Property<Guid?>("RecoveryToken")
                         .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("UserAccountId");
 

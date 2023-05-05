@@ -36,7 +36,7 @@ namespace Oishi.WebAPI.Controllers
             {
                 UserAccountId       = registerUser.Id,
                 PasswordHash        = Shared.Providers.CryptographyProvider.EncodeToBase64(registerUser.Password),
-                ConfirmationToken   = Guid.NewGuid().ToString()
+                ConfirmationToken   = Guid.NewGuid()
             };
             return _userInternalProvider.Insert(userInternalLogin);
         }
