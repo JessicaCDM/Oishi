@@ -7,6 +7,11 @@ namespace Oishi.Data.Contexts
 {
     public class DatabaseContext : DbContext
     {
+        public DatabaseContext() : base()
+        {
+
+        }
+
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {
 
