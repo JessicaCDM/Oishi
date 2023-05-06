@@ -38,10 +38,9 @@ namespace Oishi.WebApp.Controllers
         {
             AccountEditViewModel? model = null;
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-            {
-                // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
-                int userAccountId = 3;
-                string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirst?id={userAccountId}");
+			{
+				int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+				string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirst?id={userId}");
                 if (apiResponse != null)
                     model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
             }
@@ -58,10 +57,9 @@ namespace Oishi.WebApp.Controllers
             if (ModelState.IsValid)
             {
                 using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-                {
-                    // TODO: Em vez de '3', usar o id do utilizador que está com login feito, quando o login estiver a funcionar
-                    int userAccountId = 3;
-                    string? apiResponse = await webAPIProvider.Post($"UserAccount/ProfileUpdate?id={userAccountId}", model);
+				{
+					int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    string? apiResponse = await webAPIProvider.Post($"UserAccount/ProfileUpdate?id={userId}", model);
                     if (apiResponse != null)
                         model = JsonConvert.DeserializeObject<AccountEditViewModel>(apiResponse);
                 }

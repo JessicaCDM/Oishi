@@ -15,9 +15,9 @@ namespace Oishi.WebApp.Controllers
         {
             bool? result = null;
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-            {
-                // TODO: Replace '3' with the real UserAccountId
-                string? apiResponse = await webAPIProvider.Get($"Favorite/Toggle?userAccountId={3}&advertisementId={id}");
+			{
+				int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+				string? apiResponse = await webAPIProvider.Get($"Favorite/Toggle?userAccountId={userId}&advertisementId={id}");
                 if (apiResponse != null)
                     result =  JsonConvert.DeserializeObject<bool>(apiResponse);
             }
