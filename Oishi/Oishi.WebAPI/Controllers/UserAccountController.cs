@@ -43,7 +43,7 @@ namespace Oishi.WebAPI.Controllers
         {
             UserAccount userAccount = new UserAccount()
             {
-                Username = registerUser.Nome,
+                Username = registerUser.Username,
                 Email = registerUser.Email,
         };
             return _userProvider.Insert(userAccount);
@@ -54,7 +54,7 @@ namespace Oishi.WebAPI.Controllers
         {
             UserAccount userAccount = new UserAccount()
             {
-                Username = model.Nome,
+                Username = model.Username,
                 Email = model.Email,
                 ProfileId = _profileProvider.GetFirstByCode("User").Id,
                 UserAccountStatus = Shared.Enums.UserAccountStatus.EmailToApprove,
@@ -65,6 +65,19 @@ namespace Oishi.WebAPI.Controllers
                 }
             };
             return _userProvider.Insert(userAccount);
+        }
+
+        [HttpGet]
+        public UserAccount? ActivateUserAccount(int id)
+        {
+            UserAccount? userAccount = _userProvider.GetFirstById(id);
+
+            if (userAccount != null)
+            {
+                userAccount.UserAccountStatus = Shared.Enums.UserAccountStatus.Active;
+            }
+
+            return _userProvider?.Update(userAccount);
         }
 
         [HttpPost]

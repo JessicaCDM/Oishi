@@ -9,7 +9,7 @@ namespace Oishi.Shared.ViewModels.Account
         [Required(ErrorMessage = "Insira um nome")]
         [MaxLength(48)]
         [MinLength(3, ErrorMessage = "Min - 3 caracteres")]
-        public string Nome { get; set; }
+        public string Username { get; set; }
 
         [Required(ErrorMessage = "Insira um email")]
         [EmailAddress(ErrorMessage = "Email inválido")]
@@ -24,5 +24,7 @@ namespace Oishi.Shared.ViewModels.Account
         [Required(ErrorMessage = "Insira a senha novamente")]
         [Compare("Password", ErrorMessage = "As senhas não conferem")]
         public string ConfirmPassword { get; set; }
+
+        public Guid? ConfirmationToken { get; set; }
     }
 }

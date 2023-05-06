@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Include="bundleconfig.json" />
+    <None Include="Views\Payment\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

@@ -29,7 +29,14 @@ namespace Oishi.Data.Models
         public Shared.Enums.UserAccountStatus UserAccountStatus { get; set; }
 
         public int ProfileId { get; set; }
- 
+
+        [NotMapped]
+        public Guid? ConfirmationToken => UserInternalLogin?.ConfirmationToken;
+
+        [NotMapped]
+        public string? Password => UserInternalLogin?.PasswordHash;
+
+
 
         public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
         public ICollection<Advertisement>? Advertisements { get; set; }
