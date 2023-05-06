@@ -28,6 +28,7 @@ namespace Oishi.WebAPI.Controllers
             return _userInternalProvider.GetFirstById(id);
         }
 
+
         [HttpPost]
         public UserInternalLogin Insert(RegisterViewModel registerUser)
         {

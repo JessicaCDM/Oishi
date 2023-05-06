@@ -1,4 +1,5 @@
-﻿using Oishi.Data.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using Oishi.Data.Contexts;
 using Oishi.Data.Models;
 
 namespace Oishi.Data.Providers
@@ -31,12 +32,12 @@ namespace Oishi.Data.Providers
 
         public UserAccount? GetFirstById(int id)
         {
-            return _databaseContext.UserAccounts.FirstOrDefault(u => u.Id == id);
+            return _databaseContext.UserAccounts.Include(u => u.UserInternalLogin).FirstOrDefault(u => u.Id == id);
         }
 
         public UserAccount? GetFirstByEmail(string email)
         {
-            return _databaseContext.UserAccounts.FirstOrDefault(u => u.Email == email);
+            return _databaseContext.UserAccounts.Include(u => u.UserInternalLogin).FirstOrDefault(u => u.Email == email);
         }
 
         public UserAccount Insert(UserAccount item)
