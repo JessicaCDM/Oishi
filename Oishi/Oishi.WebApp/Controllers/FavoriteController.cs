@@ -14,6 +14,26 @@ namespace Oishi.WebApp.Controllers
             _OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
         }
 
+        public async Task<IActionResult> Index()
+        {
+            Shared.ViewModels.Favorite.FavoriteViewModel[] model = null;
+
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                string? apiResponse = await webAPIProvider.Get($"Favorite/GetFiltered?userAccountId={userId}");
+                if (apiResponse != null)
+                    model = JsonConvert.DeserializeObject<Shared.ViewModels.Favorite.FavoriteViewModel[]>(apiResponse);
+            }
+
+            if (model != null)
+            {
+                return View(model);
+            }
+
+            throw new Exception();
+        }
+
         public async Task<bool?> Toggle(int id)
         {
             bool? result = null;

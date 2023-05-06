@@ -1,0 +1,59 @@
+﻿@model ICollection<Oishi.Shared.ViewModels.Favorite.FavoriteViewModel>
+
+<div role="main" class="main shop pt-4">
+    <div class="container">
+
+		<div class="masonry-loader masonry-loader-showing">
+			<div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+
+				@foreach (var favorite in Model)
+				{
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="product mb-0">
+							<div class="product-thumb-info border-0 mb-3">
+
+								<!-- IMAGE -->
+								<a href="shop-product-sidebar-left.html">
+									<div class="product-thumb-info-image">
+										<img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-1.jpg">
+									</div>
+								</a>
+
+							</div>
+							<div class="d-flex justify-content-between">
+								<div>
+									<!-- CATEGORY -->
+									<a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">@(favorite.Advertisement.SubCategoryDescription)</a>
+									<!-- TITLE -->
+									<h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">@(favorite.Advertisement.Title)</a></h3>
+								</div>
+								<!-- REMOVE FROM FAVOURITES -->
+								<a onclick="javascript:ToggleFavorite(@(favorite.Advertisement.Id))" class="text-decoration-none text-color-default text-color-hover-dark text-4" style="cursor:pointer;"><i id="advertisement@(favorite.Advertisement.Id)favicon" class="fa-solid fa-heart" style="color:red;"></i></a>
+							</div>
+							<p class="price text-5 mb-3">
+								<span class="sale text-color-dark font-weight-semi-bold">@(favorite.Advertisement.Price) €</span>
+							</p>
+						</div>
+					</div>
+				}
+
+			</div>
+			<div class="row mt-4">
+				<div class="col">
+					<ul class="pagination float-end">
+						<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+						<li class="page-item active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+    </div>
+</div>
+
+@section scripts {
+	<script src="/js/views/advertisement/index.js"></script>
+}

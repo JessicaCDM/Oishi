@@ -1,4 +1,6 @@
-﻿namespace Oishi.Data.Providers
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Oishi.Data.Providers
 {
     public class Favorite 
     {
@@ -12,6 +14,20 @@
         public List<Models.Favorite> Get()
         {
             return _db.Favorites.ToList();
+        }
+
+        public List<Models.Favorite> GetFiltered(int? userAccountId)
+        {
+            IQueryable<Models.Favorite> favorites = _db.Favorites
+                .Include(x => x.Advertisement).ThenInclude(x => x.MunicipalityOrCity)
+                .Include(x => x.Advertisement).ThenInclude(x => x.Subcategory);
+
+            if (userAccountId.HasValue)
+            {
+                favorites = favorites.Where(x => x.UserAccountId == userAccountId);
+            }
+
+            return favorites.ToList();
         }
 
         public Models.Favorite? GetFirst(int userAccountId, int advertisementId)

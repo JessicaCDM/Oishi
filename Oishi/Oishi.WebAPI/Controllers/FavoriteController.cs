@@ -20,6 +20,12 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
+        public Data.Models.Favorite[] GetFiltered(int? userAccountId)
+        {
+            return _favoriteProvider.GetFiltered(userAccountId).ToArray();
+        }
+
+        [HttpGet]
         public Data.Models.Favorite? GetFirst(int userAccountId, int advertisementId)
         {
             return _favoriteProvider.GetFirst(userAccountId, advertisementId);
