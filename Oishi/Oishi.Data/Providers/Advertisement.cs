@@ -20,20 +20,20 @@ namespace Oishi.Data.Providers
                 .ToList();
         }
 
-        public List<Models.Advertisement> GetFiltered(int? subCategoryId, int? favoriteUserAccountId)
+        public List<Models.Advertisement> GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
         {
             IQueryable<Models.Advertisement> advertisements = _db.Advertisements
                 .Include(x => x.Subcategory)
                 .Include(x => x.MunicipalityOrCity);
 
-            if (favoriteUserAccountId.HasValue)
+            if (model.FavoriteUserAccountId.HasValue)
             {
                 advertisements = advertisements.Include(x => x.Favorites);
             }
 
-            if (subCategoryId.HasValue)
+            if (model.SubCategoryId.HasValue)
             {
-                advertisements = advertisements.Where(x => x.SubcategoryId == subCategoryId);
+                advertisements = advertisements.Where(x => x.SubcategoryId == model.SubCategoryId);
             }
 
             return advertisements.ToList();

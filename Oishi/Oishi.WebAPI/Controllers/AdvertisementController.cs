@@ -20,10 +20,10 @@ namespace Oishi.WebAPI.Controllers
             return _advertisementProvider.Get().ToArray();
         }
 
-        [HttpGet]
-        public Data.Models.Advertisement[] GetFiltered(int? subCategoryId, int? favoriteUserAccountId)
+        [HttpPost]
+        public Data.Models.Advertisement[] GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
         {
-            return _advertisementProvider.GetFiltered(subCategoryId, favoriteUserAccountId).ToArray();
+            return _advertisementProvider.GetFiltered(model).ToArray();
         }
 
         [HttpGet]
