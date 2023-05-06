@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
 {
+    [Authorize]
     public class FavoriteController : Controller
     {
         private string _OishiWebApiAddress;

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Oishi.Shared.ViewModels.Account;
@@ -33,7 +34,7 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
-
+        [Authorize]
         public async Task<IActionResult> Edit()
         {
             AccountEditViewModel? model = null;
@@ -50,6 +51,7 @@ namespace Oishi.WebApp.Controllers
             throw new Exception();
         }
 
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(AccountEditViewModel model)
