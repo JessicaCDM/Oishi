@@ -50,16 +50,16 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpPost]
-        public Data.Models.Advertisement? Update(int id, string title, string description, decimal price, int municipalityOrCity)
+        public Data.Models.Advertisement? Update(CreateViewModel model)
         {
             Data.Models.Advertisement newAdvertisement = new Data.Models.Advertisement()
             {
-                Id = id,
-                Title = title,
-                Description = description,
-                Price = price,
+                Id = model.Id,
+                Title = model.Title,
+                Description = model.Description,
+                Price = model.Price,
                 AdvertisementStatus = Shared.Enums.AdvertisementStatus.ToApprove,
-                MunicipalityOrCityId = municipalityOrCity,
+                MunicipalityOrCityId = model.MunicipalityOrCityId,
             };
 
 

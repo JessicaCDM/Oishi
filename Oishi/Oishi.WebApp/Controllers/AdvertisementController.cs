@@ -57,12 +57,11 @@ namespace Oishi.WebApp.Controllers
             {
                 throw new Exception("Houve um erro");
             }
-            return View("Create", model);
+            return View("Edit", model);
         }
 
         // POST Advertisement/Update?Id=123
         [HttpPost]
-
         public async Task<IActionResult> Edit(CreateViewModel model)
         {
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
@@ -72,7 +71,6 @@ namespace Oishi.WebApp.Controllers
 
                 ViewData["Success"] = "Anúncio editado com sucesso!";
             }
-
             return View();
         }
 
