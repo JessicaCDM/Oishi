@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Oishi.WebApp.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
 {
@@ -16,8 +17,10 @@ namespace Oishi.WebApp.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
+            Shared.ViewModels.HighlightsHomePage.HightlightsViewModel model = new Shared.ViewModels.HighlightsHomePage.HightlightsViewModel();
+
             Shared.ViewModels.Category.CategoryViewModel[] categories = null;
             using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
             {
@@ -26,13 +29,37 @@ namespace Oishi.WebApp.Controllers
                     categories = JsonConvert.DeserializeObject<Shared.ViewModels.Category.CategoryViewModel[]>(apiResponse);
             }
 
-            if (categories != null)
+            Shared.ViewModels.Advertisement.AdvertisementViewModel[] advertisements = null;
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
             {
-                return View(categories);
+                string? apiResponse;
+
+                // Get User ID if login is done
+                int.TryParse(User.FindFirstValue(ClaimTypes.NameIdentifier), out int userId);
+
+                Shared.ViewModels.Advertisement.AdvertisementSearchViewModel searchModel = new Shared.ViewModels.Advertisement.AdvertisementSearchViewModel()
+                {
+                    FavoriteUserAccountId = userId,
+                    SubCategoryId = id
+                };
+
+                apiResponse = await webAPIProvider.Post($"Advertisement/GetFiltered", searchModel);
+
+                if (apiResponse != null)
+                    advertisements = JsonConvert.DeserializeObject<Shared.ViewModels.Advertisement.AdvertisementViewModel[]>(apiResponse);
+            }
+
+
+            if (categories != null && advertisements != null)
+            {
+                model.Categories = categories;
+                model.Advertisements = advertisements;
+                return View(model);
             }
 
             throw new Exception();
         }
+            
         public IActionResult Help()
         {
             return View();

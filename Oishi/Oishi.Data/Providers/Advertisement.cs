@@ -26,9 +26,15 @@ namespace Oishi.Data.Providers
                 .Include(x => x.Subcategory)
                 .Include(x => x.MunicipalityOrCity);
 
+
             if (model.FavoriteUserAccountId.HasValue)
             {
-                advertisements = advertisements.Include(x => x.Favorites);
+                advertisements = advertisements.Include(x => x.Favorites.Where(x => x.UserAccountId == model.FavoriteUserAccountId));
+            }
+
+            if (model.IsHighlighted)
+            {
+                advertisements = advertisements.Where(x => x.AdvertisementHighlights.Any());
             }
 
             if (model.SubCategoryId.HasValue)

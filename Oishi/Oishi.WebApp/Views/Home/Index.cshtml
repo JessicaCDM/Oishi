@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Oishi.Shared.ViewModels.Category.CategoryViewModel>
+﻿@using System.Security.Claims
+@model Oishi.Shared.ViewModels.HighlightsHomePage.HightlightsViewModel
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -9,7 +11,7 @@
     <div class="container">
         <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3">
 
-            @foreach (var category in Model)
+            @foreach (var category in Model.Categories)
             {
                 <div class="col pt-3">
                     <div id="@(Oishi.Shared.Providers.StringHelperProvider.RemoveDiacriticsAndSpaces(category.Description))" class="decor" onclick="javascript:ToggleSubCategory(this.id);">
@@ -22,7 +24,7 @@
         </div>
         <div id="sub-categories" class="pb-5">
 
-            @foreach (var category in Model)
+            @foreach (var category in Model.Categories)
             {
                 <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 row-cols-1 pt-5 sub-category @(Oishi.Shared.Providers.StringHelperProvider.RemoveDiacriticsAndSpaces(category.Description))">
 
@@ -36,6 +38,57 @@
                     }
                 </div>
             }
+        </div>
+
+
+        <div class="text-center">
+            <h2>Destaques Oishi</h2>
+
+            <div class="container">
+
+                <div class="masonry-loader masonry-loader-showing">
+                    <div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+
+                        @foreach (var advertisement in Model.Advertisements)
+                        {
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="product mb-0">
+                                    <div class="product-thumb-info border-0 mb-3">
+                                        <!-- BADGE -->
+                                        <div class="product-thumb-info-badges-wrapper">
+                                            <span class="badge badge-ecommerce badge-success">DESTACADO</span>
+
+                                        </div>
+                                        <!-- IMAGE -->
+                                        <a href="shop-product-sidebar-left.html">
+                                            <div class="product-thumb-info-image">
+                                                <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-1.jpg">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <!-- CATEGORY -->
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">@advertisement.SubCategoryDescription</a>
+                                            <!-- TITLE -->
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">@advertisement.Title</a></h3>
+                                        </div>
+                                        <!-- ADD TO FAVOURITES -->
+                                    @if (User.Claims.Any(x => x.Type == ClaimTypes.NameIdentifier))
+                                    {
+                                    <a onclick="javascript:ToggleFavorite(@(advertisement.Id))" class="text-decoration-none text-color-default text-color-hover-dark text-4" style="cursor:pointer;"><i id="advertisement@(advertisement.Id)favicon" class="@(advertisement.Favorites.Any() ? "fa-solid" : "far") fa-heart" style="color:red;"></i></a>
+                                    }
+                                    </div>
+                                    <p class="price text-5 mb-3">
+                                        <span class="sale text-color-dark font-weight-semi-bold">@advertisement.Price €</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
