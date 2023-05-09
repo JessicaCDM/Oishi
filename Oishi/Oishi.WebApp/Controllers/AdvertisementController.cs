@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Oishi.Shared.ViewModels.Advertisement;
+using Oishi.Shared.ViewModels.Category;
 using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
@@ -110,5 +112,30 @@ namespace Oishi.WebApp.Controllers
 
 			return View();
 		}
-	}
+
+		[HttpGet]
+		public async Task<IActionResult> Search(string searchString, string category)
+		{
+			using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+			{
+                string? response = await webAPIProvider.Get($"Advertisement/Get");
+				List<AdvertisementViewModel> advertisements = JsonConvert.DeserializeObject<List<AdvertisementViewModel>>(response);
+                
+				if (!string.IsNullOrEmpty(searchString))
+				{
+					advertisements = advertisements.Where(a => a.Title.Contains(searchString)).ToList();
+
+                    response = await webAPIProvider.Get($"Category/Get");
+                    List<CategoryViewModel> categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(response);
+
+                    if (category != "all")
+                    {
+                        categories = categories.Where(a => a.Description == category).ToList();
+                    }
+					return View("/Views/Advertisement/List.cshtml", advertisements);
+                }
+				return RedirectToAction("/Home/Index");
+            }
+        }
+    }
 }
