@@ -1,9 +1,4 @@
-﻿using Oishi.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Oishi.Data.Providers
 {
@@ -19,6 +14,20 @@ namespace Oishi.Data.Providers
         public List<Models.Favorite> Get()
         {
             return _db.Favorites.ToList();
+        }
+
+        public List<Models.Favorite> GetFiltered(int? userAccountId)
+        {
+            IQueryable<Models.Favorite> favorites = _db.Favorites
+                .Include(x => x.Advertisement).ThenInclude(x => x.MunicipalityOrCity)
+                .Include(x => x.Advertisement).ThenInclude(x => x.Subcategory);
+
+            if (userAccountId.HasValue)
+            {
+                favorites = favorites.Where(x => x.UserAccountId == userAccountId);
+            }
+
+            return favorites.ToList();
         }
 
         public Models.Favorite? GetFirst(int userAccountId, int advertisementId)
@@ -45,6 +54,32 @@ namespace Oishi.Data.Providers
             }
 
             return false;
+        }
+
+        // Returns true if favorite added, returns false if favorite removed
+        public bool Toggle(int userAccountId, int advertisementId)
+        {
+            bool result = false;
+
+            if (_db.Favorites.Any(x => x.UserAccountId == userAccountId && x.AdvertisementId == advertisementId))
+            {
+                _db.Favorites.Remove(_db.Favorites.FirstOrDefault(x => x.UserAccountId == userAccountId && x.AdvertisementId == advertisementId));
+                result = false;
+            }
+            else
+            {
+                _db.Favorites.Add(new Models.Favorite()
+                {
+                    AdvertisementId = advertisementId,
+                    UserAccountId = userAccountId,
+                    Date = DateTime.Now
+                });
+                result = true;
+            }
+
+            _db.SaveChanges();
+
+            return result;
         }
     }
 }

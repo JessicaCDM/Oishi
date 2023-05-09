@@ -1,4 +1,6 @@
-﻿namespace Oishi.Data.Providers
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Oishi.Data.Providers
 {
     public class Category : IProvider<Models.Category>
     {
@@ -11,7 +13,7 @@
 
         public List<Models.Category> Get()
         {
-            return _db.Categories.ToList();
+            return _db.Categories.Include(x => x.SubCategories).ToList();
         }
 
         public Models.Category? GetFirstById(int id)

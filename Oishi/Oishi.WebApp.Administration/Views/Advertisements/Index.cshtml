@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Oishi.Data.Models.Advertisement>
+
+@{
+    ViewData["Title"] = "Anúncios";
+}
+
+<table class="table table-striped table-hover caption-top">
+    <caption>@(ViewData["Title"])<a class="btn btn-sm btn-success float-end" asp-action="Create" role="button">Criar <i class="fa-solid fa-plus"></i></a></caption>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUpdateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdvertisementStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserAccount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MunicipalityOrCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subcategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastUpdateDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdvertisementStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserAccount.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MunicipalityOrCity.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subcategory.Description)
+                </td>
+                <td class="text-end">
+                    <a class="btn btn-xs btn-outline-primary" asp-route-id="@item.Id" asp-action="Edit" role="button"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a class="btn btn-xs btn-outline-info" asp-route-id="@item.Id" asp-action="Details" role="button"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    <a class="btn btn-xs btn-outline-danger" asp-route-id="@item.Id" asp-action="Delete" role="button"><i class="fa-solid fa-trash-can"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

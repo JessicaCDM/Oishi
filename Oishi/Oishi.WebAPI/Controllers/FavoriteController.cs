@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Oishi.WebAPI.Controllers
 {
@@ -18,6 +17,12 @@ namespace Oishi.WebAPI.Controllers
         public Data.Models.Favorite[] Get()
         {
             return _favoriteProvider.Get().ToArray();
+        }
+
+        [HttpGet]
+        public Data.Models.Favorite[] GetFiltered(int? userAccountId)
+        {
+            return _favoriteProvider.GetFiltered(userAccountId).ToArray();
         }
 
         [HttpGet]
@@ -42,6 +47,12 @@ namespace Oishi.WebAPI.Controllers
         public bool Delete(int userAccountId, int advertisementId)
         {
             return _favoriteProvider.Delete(userAccountId, advertisementId);
+        }
+
+        [HttpGet]
+        public bool Toggle(int userAccountId, int advertisementId)
+        {
+            return _favoriteProvider.Toggle(userAccountId, advertisementId);
         }
     }
 }

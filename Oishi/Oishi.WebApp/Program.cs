@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using static System.Formats.Asn1.AsnWriter;
+using Oishi.Shared.Services;
 
 namespace Oishi.WebApp
 {
@@ -26,6 +24,7 @@ namespace Oishi.WebApp
             }
             );
 
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -44,6 +43,7 @@ namespace Oishi.WebApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

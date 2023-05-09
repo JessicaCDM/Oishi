@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+
+<!DOCTYPE html>
 <html lang="en" class="history svg video supports boxshadow csstransforms3d csstransitions
 backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-negative boxed"
       style="background-image: url('/img/patterns/subtle_grunge.png');">
@@ -45,11 +47,11 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="/css/skins/default.css">
 
-    <!-- Head Libs -->
-    <script src="/lib/modernizr/modernizr.min.js"></script>
-
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="/lib/modernizr/modernizr.min.js"></script>
 
 </head>
 <body data-plugin-page-transition>
@@ -114,20 +116,49 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
 
                                 <div class="d-flex col-auto pe-0 ps-0 ps-xl-3">
                                     <ul class="header-extra-info">
-                                        <li class="ms-0 ms-xl-4">
-                                            <div class="header-extra-info-icon">
-                                                <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Login">
-                                                    <i class="icons icon-user"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li class="me-2 ms-2">
-                                            <div class="header-extra-info-icon">
-                                                <a href="#" class="text-decoration-none text-color-dark text-color-hover-primary text-2">
-                                                    <i class="icons icon-heart"></i>
-                                                </a>
-                                            </div>
-                                        </li>
+                                        @if (User.Claims.Any(x => x.Type == ClaimTypes.NameIdentifier))
+                                        {
+                                            <li class="ms-0 ms-xl-4">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Edit">
+                                                        <i class="icons icon-user"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="me-2 ms-2">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Favorite" asp-action="Index">
+                                                        <i class="icons icon-heart"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="ms-0 ms-xl-4">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Logout">
+                                                        <i class="icons icon-logout"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li class="ms-0 ms-xl-4">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Register">
+                                                        <i class="icons icon-user-follow"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li class="ms-0 ms-xl-4">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Login">
+                                                        <i class="icons icon-login"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        }
                                     </ul>
                                     @*<div class="header-nav-features ps-0 ms-1">
                                     <div class="header-nav-feature header-nav-features-cart header-nav-features-cart-big d-inline-flex top-2 ms-2">
@@ -249,7 +280,7 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-4 text-color-light mb-3">Pacote de Anúncios</h5>
-                        <a href="" class="d-block font-weight-normal line-height-1 text-color-light">Conhecer as nossas ofertas</a>
+                        <a class="d-block font-weight-normal line-height-1 text-color-light" asp-controller="Payment" asp-action="Index">Conhecer as nossas ofertas</a>
 
                     </div>
                 </div>

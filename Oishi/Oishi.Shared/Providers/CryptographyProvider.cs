@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Oishi.Shared.Providers
+﻿namespace Oishi.Shared.Providers
 {
     public static class CryptographyProvider
     {

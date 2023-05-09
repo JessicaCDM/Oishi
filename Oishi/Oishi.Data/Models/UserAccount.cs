@@ -1,12 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Oishi.Data.Models
 {
@@ -35,15 +29,22 @@ namespace Oishi.Data.Models
         public Shared.Enums.UserAccountStatus UserAccountStatus { get; set; }
 
         public int ProfileId { get; set; }
- 
+
+        [NotMapped]
+        public Guid? ConfirmationToken => UserInternalLogin?.ConfirmationToken;
+
+        [NotMapped]
+        public string? Password => UserInternalLogin?.PasswordHash;
+
+
 
         public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
-        public ICollection<Advertisement> Advertisements { get; set; }
+        public ICollection<Advertisement>? Advertisements { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<Message>? ReceivedMessages { get; set; }
         public ICollection<Message>? SentMessages { get; set; }
         public UserInternalLogin? UserInternalLogin { get; set; }
-        public Profile Profile { get; set; }
+        public Profile? Profile { get; set; }
 
     }
 }

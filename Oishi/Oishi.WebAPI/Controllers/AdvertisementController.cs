@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Oishi.Data.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using Oishi.Shared.ViewModels.Advertisement;
 
 namespace Oishi.WebAPI.Controllers
@@ -21,6 +18,12 @@ namespace Oishi.WebAPI.Controllers
         public Data.Models.Advertisement[] Get()
         {
             return _advertisementProvider.Get().ToArray();
+        }
+
+        [HttpPost]
+        public Data.Models.Advertisement[] GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
+        {
+            return _advertisementProvider.GetFiltered(model).ToArray();
         }
 
         [HttpGet]

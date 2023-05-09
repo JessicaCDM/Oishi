@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Oishi.Data.Models
 {
@@ -18,6 +13,6 @@ namespace Oishi.Data.Models
         [StringLength(255)]
         public string EndpointUrl { get; set; }
 
-        public ICollection<UserExternalLogin> UserExternalLogins { get; set; }
+        public ICollection<UserExternalLogin>? UserExternalLogins { get; set; }
     }
 }

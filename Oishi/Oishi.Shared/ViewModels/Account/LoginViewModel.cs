@@ -4,6 +4,8 @@ namespace Oishi.Shared.ViewModels.Account
 {
     public class LoginViewModel
     {
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Insira um email")]
         [EmailAddress(ErrorMessage = "Email inválido")]
         [MaxLength(320)]
@@ -15,6 +17,6 @@ namespace Oishi.Shared.ViewModels.Account
         [MaxLength(32)]
         public string Password { get; set; }
 
-        public string ReturnUrl { get; set; }
+        public Enums.UserAccountStatus UserAccountStatus { get; set; } = Enums.UserAccountStatus.EmailToApprove;
     }
 }

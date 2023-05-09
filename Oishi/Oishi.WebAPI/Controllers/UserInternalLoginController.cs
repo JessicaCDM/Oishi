@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Oishi.Data.Models;
 using Oishi.Data.Providers;
-using Oishi.Shared.ViewModels;
 using Oishi.Shared.ViewModels.Account;
 
 namespace Oishi.WebAPI.Controllers
@@ -28,6 +27,7 @@ namespace Oishi.WebAPI.Controllers
         {
             return _userInternalProvider.GetFirstById(id);
         }
+
 
         [HttpPost]
         public UserInternalLogin Insert(RegisterViewModel registerUser)

@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace Oishi.Data.Models
@@ -17,11 +16,9 @@ namespace Oishi.Data.Models
         public Guid ConfirmationToken { get; set; }
 
         [StringLength(128)]
-        public string? RecoveryToken { get; set; }
+        public Guid? RecoveryToken { get; set; }
 
 
-        public UserAccount UserAccount { get; set; }
-
-
+        public UserAccount? UserAccount { get; set; }
     }
 }

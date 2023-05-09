@@ -1,12 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Oishi.Data.Models
 {
@@ -21,8 +15,9 @@ namespace Oishi.Data.Models
         public int CategoryId { get; set; }
 
 
-        public Category Category { get; set; }
-        public ICollection<Advertisement> Advertisements { get; set; }
+        public Category? Category { get; set; }
+        [JsonIgnore]
+        public ICollection<Advertisement>? Advertisements { get; set; }
 
     }
 }

@@ -1,15 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Net.Mime;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Oishi.Data.Models
 {
@@ -36,15 +28,21 @@ namespace Oishi.Data.Models
         public Shared.Enums.AdvertisementStatus AdvertisementStatus { get; set; }
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
+        [NotMapped]
+        public string? MunicipalityOrCityName => MunicipalityOrCity?.Name;
         public int SubcategoryId { get; set; }
+        [NotMapped]
+        public string? SubcategoryDescription => Subcategory?.Description;
 
 
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
         public ICollection<Image>? Images { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<Message>? Messages { get; set; }
-        public UserAccount UserAccount { get; set; }
-        public MunicipalityOrCity MunicipalityOrCity { get; set; }
-        public Subcategory Subcategory { get; set; }
+        public UserAccount? UserAccount { get; set; }
+        [JsonIgnore]
+        public MunicipalityOrCity?  MunicipalityOrCity{ get; set; }
+        
+        public Subcategory? Subcategory { get; set; }
     }
 }
