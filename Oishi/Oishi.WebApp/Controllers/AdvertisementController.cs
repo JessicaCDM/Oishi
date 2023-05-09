@@ -69,7 +69,13 @@ namespace Oishi.WebApp.Controllers
                 string? response = await webAPIProvider.Post($"Advertisement/Update", model);
                 System.Diagnostics.Debug.WriteLine(response);
 
-                ViewData["Success"] = "Anúncio editado com sucesso!";
+                if (response != null)
+                {
+                    ViewData["Success"] = "Anúncio editado com sucesso!";
+                }
+                else {
+                    throw new Exception("Erro!");
+                }
             }
             return View();
         }
