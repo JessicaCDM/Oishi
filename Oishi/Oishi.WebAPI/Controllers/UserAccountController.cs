@@ -12,12 +12,14 @@ namespace Oishi.WebAPI.Controllers
         private UserAccountRepository _userProvider;
         private UserInternalLoginRepository _userInternalLoginRepository;
         private Data.Providers.Profile _profileProvider;
+        private UserExternalLoginRepository _userExternalLoginRepository;
 
         public UserAccountController(Data.Contexts.DatabaseContext dbcontext) 
         {
             _userProvider = new UserAccountRepository(dbcontext);
             _userInternalLoginRepository = new UserInternalLoginRepository(dbcontext);
             _profileProvider = new Data.Providers.Profile(dbcontext);
+            _userExternalLoginRepository = new UserExternalLoginRepository(dbcontext);
         }
 
         [HttpGet]
@@ -43,9 +45,10 @@ namespace Oishi.WebAPI.Controllers
         {
             UserAccount userAccount = new UserAccount()
             {
-                Username = registerUser.Username,
                 Email = registerUser.Email,
-        };
+                ProfileId = _profileProvider.GetFirstByCode("User").Id,
+                UserAccountStatus = Shared.Enums.UserAccountStatus.Active,
+            };
             return _userProvider.Insert(userAccount);
         }
 

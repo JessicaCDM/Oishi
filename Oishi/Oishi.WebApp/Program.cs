@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using Oishi.Shared.Services;
+using System.Configuration;
 
 namespace Oishi.WebApp
 {
@@ -9,12 +13,20 @@ namespace Oishi.WebApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            var authenticationSettings = new GoogleOptions
+            {
+                ClientId = "196739486101-859k8js48gdsm94ps1amqvutafcebp6d.apps.googleusercontent.com",
+                ClientSecret = "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",
+                CallbackPath = "/signin-google",
+            };
+
             // Authentication
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignOutScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
             }
             ).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, (options) =>
             {
@@ -22,7 +34,12 @@ namespace Oishi.WebApp
                 options.LogoutPath = "/Account/Logout";
                 options.ExpireTimeSpan = TimeSpan.FromHours(8);
             }
-            );
+            ).AddGoogle(GoogleDefaults.AuthenticationScheme, (options) =>
+            {
+                options.ClientId = authenticationSettings.ClientId;
+                options.ClientSecret = authenticationSettings.ClientSecret;
+                options.CallbackPath = authenticationSettings.CallbackPath;
+            });
 
 
             // Add services to the container.

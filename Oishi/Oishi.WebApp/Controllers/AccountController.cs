@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Oishi.Shared.ViewModels.Account;
@@ -24,7 +26,8 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
-        public ActionResult Login()
+        [AllowAnonymous]
+        public IActionResult Login()
         {
             return View();
         }
@@ -32,6 +35,38 @@ namespace Oishi.WebApp.Controllers
         public ActionResult ConfirmEmail()
         {
             return View();
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult ExternalLogin()
+        {
+            var properties = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action(nameof(ExternalLoginCallback)),
+                Items =
+                {
+                    { "scheme", "Google" },
+                    { "returnUrl", "~/Home/Index" }
+                }
+            };
+            return Challenge(properties, "Google");
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult RegisterExternalLogin()
+        {
+            var properties = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action(nameof(RegisterExternalLoginCallback)),
+                Items =
+                {
+                    { "scheme", "Google" },
+                    { "returnUrl", "~/Home/Index" }
+                }
+            };
+            return Challenge(properties, "Google");
         }
 
         [Authorize]
@@ -69,10 +104,10 @@ namespace Oishi.WebApp.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> LoginAsync(LoginViewModel model)
         {
-            string isValid = "false";
             if (ModelState.IsValid)
             {
                 using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
@@ -135,6 +170,16 @@ namespace Oishi.WebApp.Controllers
                     }
                     ModelState.AddModelError(string.Empty, "Dados de login inválidos!");
                 }
+                var properties = new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action(nameof(ExternalLoginCallback)),
+                    Items =
+                    {
+                        { "scheme", "Google" },
+                        { "returnUrl", "~/Home/Index" }
+                    }
+                };
+                return Challenge(properties, "Google");
 
             }
             return View(model);
@@ -158,7 +203,6 @@ namespace Oishi.WebApp.Controllers
             {
                 using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
                 {
-                    //string email = model.Email;
                     string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirstByEmail?email={model.Email}");
 
                     if (apiResponse == "")
@@ -221,6 +265,79 @@ namespace Oishi.WebApp.Controllers
                 ModelState.AddModelError("", "E-mail não confirmado, tente novamente!");
                 return RedirectToAction("Register");
             }
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null)
+        {
+            if (remoteError != null)
+            {
+                ModelState.AddModelError(string.Empty, $"Error from external provider: {remoteError}");
+                return View("Login");
+            }
+            var info = HttpContext.AuthenticateAsync().Result;
+            var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+            var userId = info.Principal.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirstByEmail?email={email}");
+                if (apiResponse == "")
+                {
+                    ModelState.AddModelError(string.Empty, $"Usuário não registado, por favor faço o Registo!");
+                    return View("Register");
+                }
+            }
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Email, email),
+                new Claim(ClaimTypes.NameIdentifier, userId)
+            };
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+            HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            return Redirect(returnUrl ?? "~/Home/Index");
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<IActionResult> RegisterExternalLoginCallback(string returnUrl = null, string remoteError = null)
+        {
+            RegisterViewModel model = new RegisterViewModel();
+
+            if (remoteError != null)
+            {
+                ModelState.AddModelError(string.Empty, $"Error from external provider: {remoteError}");
+                return View("Login");
+            }
+            var info = HttpContext.AuthenticateAsync().Result;
+            var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+            var userId = info.Principal.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+
+                string? apiResponse = await webAPIProvider.Get($"UserAccount/GetFirstByEmail?email={email}");
+                if (apiResponse == "")
+                {
+                    apiResponse = await webAPIProvider.Post($"UserAccount/Insert", model);
+                    model = JsonConvert.DeserializeObject<RegisterViewModel>(apiResponse);
+                    if (model != null)
+                    {
+                        apiResponse = await webAPIProvider.Post($"UserExternalLogin/Insert?id{model.Id}", model);
+                    }
+                }
+            }
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Email, email),
+                new Claim(ClaimTypes.NameIdentifier, userId)
+            };
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+            HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            return Redirect(returnUrl ?? "~/Home/Index");
         }
     }
 }

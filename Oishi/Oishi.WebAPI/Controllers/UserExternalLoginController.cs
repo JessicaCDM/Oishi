@@ -28,13 +28,12 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public UserExternalLogin Insert(int id, int idAccount, int idProvider)
+        public UserExternalLogin Insert(int id)
         {
             UserExternalLogin userExternalLogin = new UserExternalLogin()
             { 
-                Id = id,
-                UserAccountId = idAccount,
-                ExternalProviderId = idProvider
+                UserAccountId = id,
+                //ExternalProviderId = idProvider
             };
             return _userExternalProvider.Insert(userExternalLogin);
         }
