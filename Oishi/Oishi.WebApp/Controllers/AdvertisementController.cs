@@ -9,7 +9,11 @@ namespace Oishi.WebApp.Controllers
 	{
 		private string _OishiWebApiAddress;
 
-		public AdvertisementController(IConfiguration configuration)
+        public IActionResult Product()
+        {
+            return View();
+        }
+        public AdvertisementController(IConfiguration configuration)
 		{
 			_OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
 		}
