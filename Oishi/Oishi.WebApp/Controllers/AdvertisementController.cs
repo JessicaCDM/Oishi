@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Oishi.Shared.ViewModels.Advertisement;
 using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
@@ -115,12 +116,5 @@ namespace Oishi.WebApp.Controllers
             }
             return View();
         }
-
-
-
-
-
-
-
     }
 }
