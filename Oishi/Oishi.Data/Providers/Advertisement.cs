@@ -42,7 +42,12 @@ namespace Oishi.Data.Providers
                 advertisements = advertisements.Where(x => x.SubcategoryId == model.SubCategoryId);
             }
 
-            return advertisements.ToList();
+            if (model.NumberOfRows.HasValue)
+            {
+                advertisements = advertisements.Take(model.NumberOfRows.Value);
+            }
+
+            return advertisements.OrderByDescending(x => x.StartDate).ToList();
         }
 
         public Models.Advertisement? GetFirstById(int id)

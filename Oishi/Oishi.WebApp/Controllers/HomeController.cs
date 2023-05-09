@@ -40,7 +40,8 @@ namespace Oishi.WebApp.Controllers
                 Shared.ViewModels.Advertisement.AdvertisementSearchViewModel searchModel = new Shared.ViewModels.Advertisement.AdvertisementSearchViewModel()
                 {
                     FavoriteUserAccountId = userId,
-                    SubCategoryId = id
+                    SubCategoryId = id,
+                    NumberOfRows = 12
                 };
 
                 apiResponse = await webAPIProvider.Post($"Advertisement/GetFiltered", searchModel);
@@ -48,7 +49,6 @@ namespace Oishi.WebApp.Controllers
                 if (apiResponse != null)
                     advertisements = JsonConvert.DeserializeObject<Shared.ViewModels.Advertisement.AdvertisementViewModel[]>(apiResponse);
             }
-
 
             if (categories != null && advertisements != null)
             {
@@ -59,7 +59,7 @@ namespace Oishi.WebApp.Controllers
 
             throw new Exception();
         }
-            
+
         public IActionResult Help()
         {
             return View();
