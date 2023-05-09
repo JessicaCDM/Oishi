@@ -26,9 +26,15 @@ namespace Oishi.Data.Providers
                 .Include(x => x.Subcategory)
                 .Include(x => x.MunicipalityOrCity);
 
+
             if (model.FavoriteUserAccountId.HasValue)
             {
-                advertisements = advertisements.Include(x => x.Favorites);
+                advertisements = advertisements.Include(x => x.Favorites.Where(x => x.UserAccountId == model.FavoriteUserAccountId));
+            }
+
+            if (model.IsHighlighted)
+            {
+                advertisements = advertisements.Where(x => x.AdvertisementHighlights.Any());
             }
 
             if (model.SubCategoryId.HasValue)
@@ -36,7 +42,12 @@ namespace Oishi.Data.Providers
                 advertisements = advertisements.Where(x => x.SubcategoryId == model.SubCategoryId);
             }
 
-            return advertisements.ToList();
+            if (model.NumberOfRows.HasValue)
+            {
+                advertisements = advertisements.Take(model.NumberOfRows.Value);
+            }
+
+            return advertisements.OrderByDescending(x => x.StartDate).ToList();
         }
 
         public Models.Advertisement? GetFirstById(int id)
