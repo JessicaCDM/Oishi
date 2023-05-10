@@ -1,4 +1,7 @@
-﻿<div class="container">
+﻿@{
+    ViewData["Title"] = "Pacotes";
+}
+<div class="container">
     <div>
         <p class="h2 text-center mb-5">Escolha a melhor Oferta!</p>
     </div>
@@ -14,16 +17,11 @@
                     <sup class="sup">€</sup>
                 </span>
                 <ul class="mb-5 list-unstyled text-muted">
-                    <li><span></span></li>
                     <li><span class="fa fa-check me-2"></span>Anúnciar</li>
                     <li><span class="fa fa-check me-2"></span>Pesquisar</li>
                     <li><span class="fa fa-check me-2"></span>Fazer Negócios</li>
-                    <li><span></span></li>
+                    <li><span class="fa fa-check me-2"></span>Favoritos</li>
                 </ul>
-                <div>
-                    <br />
-                    <a class="btn btn-primary" asp-controller="Account" asp-action="Register"> Começar </a>
-                </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mt-md-0 mt-5">
@@ -37,13 +35,11 @@
                     <sup class="sup">€</sup>
                 </span>
                 <ul class="mb-5 list-unstyled text-muted">
-                    <li><span></span></li>
                     <li><span class="fa fa-check me-2"></span>Anúnciar</li>
                     <li><span class="fa fa-check me-2"></span>Pesquisar</li>
                     <li><span class="fa fa-check me-2"></span>Fazer Negócios</li>
                     <li><span class="fa fa-check me-2"></span>Destaque por 7 dias</li>
                 </ul>
-                <div class="btn btn-primary mb-1"> Começar </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
@@ -57,13 +53,11 @@
                     <sup class="sup">€</sup>
                 </span>
                 <ul class="mb-5 list-unstyled text-muted">
-                    <li><span></span></li>
                     <li><span class="fa fa-check me-2"></span>Anúnciar</li>
                     <li><span class="fa fa-check me-2"></span>Pesquisar</li>
                     <li><span class="fa fa-check me-2"></span>Fazer Negócios</li>
                     <li><span class="fa fa-check me-2"></span>Destaque por 15 dias</li>
                 </ul>
-                <div class="btn btn-primary"> Começar </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
@@ -77,15 +71,21 @@
                     <sup class="sup">€</sup>
                 </span>
                 <ul class="mb-5 list-unstyled text-muted">
-                    <li><span></span></li>
                     <li><span class="fa fa-check me-2"></span>Anúnciar</li>
                     <li><span class="fa fa-check me-2"></span>Pesquisar</li>
                     <li><span class="fa fa-check me-2"></span>Fazer Negócios</li>
                     <li><span class="fa fa-check me-2"></span>Destaque por 30 dias</li>
                 </ul>
-                <div class="btn btn-primary"> Começar </div>
             </div>
         </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+        <p class="h3 text-center mb-5">Faça o seu pagamento para o IBAN: PT50 1234 4321 12345678901 72</p>
+        <p class="h6 text-center mb-5">Mande o comprovativo para o e-mail <a href="#">oishi@oishikitchen.pt</a></p>
     </div>
 </div>
 <br />

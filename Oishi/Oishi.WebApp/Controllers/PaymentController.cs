@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using Oishi.Shared.ViewModels.Account;
+using Oishi.Shared.ViewModels.Advertisement;
+using System.Drawing;
 using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers

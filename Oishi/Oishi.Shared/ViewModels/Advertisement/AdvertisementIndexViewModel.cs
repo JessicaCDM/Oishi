@@ -2,8 +2,8 @@
 {
     public class AdvertisementIndexViewModel
     {
-        public Oishi.Shared.ViewModels.Category.CategoryViewModel[] Categories { get; set; }
-        public Oishi.Shared.ViewModels.Advertisement.AdvertisementViewModel[] Advertisements{ get; set; }
+        public Category.CategoryViewModel[] Categories { get; set; }
+        public AdvertisementViewModel[] Advertisements{ get; set; }
 
     }
 }

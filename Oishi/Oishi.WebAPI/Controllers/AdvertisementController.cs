@@ -21,7 +21,7 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpPost]
-        public Data.Models.Advertisement[] GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
+        public Data.Models.Advertisement[] GetFiltered(AdvertisementSearchViewModel model)
         {
             return _advertisementProvider.GetFiltered(model).ToArray();
         }

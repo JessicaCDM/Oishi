@@ -19,6 +19,7 @@ namespace Oishi.Shared.ViewModels.Account
         [Required(ErrorMessage = "Insira uma senha")]
         [MinLength(8)]
         [MaxLength(32)]
+        [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{6,}$", ErrorMessage = "A sua password precisa de conter pelo menos 8 caracteres, uma letra maiúscula, uma minuscula, um número e um caractere.")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Insira a senha novamente")]
