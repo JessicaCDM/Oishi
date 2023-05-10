@@ -2,6 +2,7 @@
 using Oishi.Data.Providers;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Oishi.Data.Models
 {
@@ -29,10 +30,10 @@ namespace Oishi.Data.Models
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
         [NotMapped]
-        public string MunicipalityOrCityName => MunicipalityOrCity.Name;
+        public string? MunicipalityOrCityName => MunicipalityOrCity?.Name;
         public int SubcategoryId { get; set; }
         [NotMapped]
-        public string SubcategoryDescription => Subcategory.Description;
+        public string? SubcategoryDescription => Subcategory?.Description;
 
 
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
@@ -40,7 +41,9 @@ namespace Oishi.Data.Models
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<Message>? Messages { get; set; }
         public UserAccount? UserAccount { get; set; }
-        public MunicipalityOrCity? MunicipalityOrCity { get; set; }
+        [JsonIgnore]
+        public MunicipalityOrCity?  MunicipalityOrCity{ get; set; }
+        
         public Subcategory? Subcategory { get; set; }
     }
 }

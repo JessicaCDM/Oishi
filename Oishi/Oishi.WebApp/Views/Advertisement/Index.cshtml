@@ -5,12 +5,8 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-3 order-2 order-lg-1">
+            <div class="col-lg-3 order-2 order-lg-1 pb-5">
                 <aside class="sidebar">
-                    <div class="input-group mb-3 pb-1">
-                        <input class="form-control text-1" placeholder="Search..." name="s" id="s" type="text">
-                        <button type="submit" class="btn btn-dark text-1 p-2"><i class="fas fa-search m-2"></i></button>
-                    </div>
                     <h5 class="font-weight-semi-bold pt-3">Categorias</h5>
                     <ul class="nav nav-list flex-column">
                         @foreach (var category in Model.Categories)
@@ -26,19 +22,6 @@
                             </li>
                         }
                     </ul>
-                    <h5 class="font-weight-semi-bold pt-5">Tags</h5>
-                    <div class="mb-3 pb-1">
-                        @*<a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Nike</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Travel</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Sport</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">TV</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Books</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Tech</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Adidas</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Promo</span></a>
-                        <a href="#"><span class="badge badge-dark badge-sm rounded-pill text-uppercase px-2 py-1 me-1">Reading</span></a>*@
-                    </div>
-
                 </aside>
             </div>
             <div class="col-lg-9 order-1 order-lg-2">

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Oishi.Data.Models
 {
@@ -14,6 +15,7 @@ namespace Oishi.Data.Models
 
 
         public Region? Region { get; set; }
+        [JsonIgnore]
         public ICollection<Advertisement>? Advertisements { get; set; }
 
     }
