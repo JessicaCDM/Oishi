@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Oishi.Data.Contexts;
+using Oishi.Data.Models;
 
 namespace Oishi.Data.Providers
 {
@@ -23,12 +24,18 @@ namespace Oishi.Data.Providers
         public List<Models.Advertisement> GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
         {
             IQueryable<Models.Advertisement> advertisements = _db.Advertisements
-                .Include(x => x.Subcategory)
+                .Include(x => x.Subcategory).ThenInclude(x => x.Category)
                 .Include(x => x.MunicipalityOrCity);
+
 
             if (model.FavoriteUserAccountId.HasValue)
             {
-                advertisements = advertisements.Include(x => x.Favorites);
+                advertisements = advertisements.Include(x => x.Favorites.Where(x => x.UserAccountId == model.FavoriteUserAccountId));
+            }
+
+            if (model.IsHighlighted)
+            {
+                advertisements = advertisements.Where(x => x.AdvertisementHighlights.Any());
             }
 
             if (model.SubCategoryId.HasValue)
@@ -36,12 +43,36 @@ namespace Oishi.Data.Providers
                 advertisements = advertisements.Where(x => x.SubcategoryId == model.SubCategoryId);
             }
 
-            return advertisements.ToList();
+            if (!string.IsNullOrEmpty(model.Search))
+            {
+                advertisements = advertisements.Where(x => x.Title == model.Search);
+            }
+
+            if (model.NumberOfRows.HasValue)
+            {
+                advertisements = advertisements.Take(model.NumberOfRows.Value);
+            }
+
+            return advertisements.OrderByDescending(x => x.StartDate).ToList();
         }
 
         public Models.Advertisement? GetFirstById(int id)
         {
             return _db.Advertisements.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Models.Advertisement? GetFirstById(int id, int? favoriteUserAccountId)
+        {
+            IQueryable<Models.Advertisement> advertisements = _db.Advertisements
+                .Include(x => x.Subcategory).ThenInclude(x => x.Category)
+                .Include(x => x.MunicipalityOrCity);
+
+            if (favoriteUserAccountId.HasValue)
+            {
+                advertisements = advertisements.Include(x => x.Favorites.Where(x => x.UserAccountId == favoriteUserAccountId));
+            }
+
+            return advertisements.FirstOrDefault(x => x.Id == id);
         }
 
         public Models.Advertisement Insert(Models.Advertisement item)

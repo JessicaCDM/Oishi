@@ -10,5 +10,8 @@ namespace Oishi.Shared.ViewModels.Advertisement
 	{
         public int? SubCategoryId { get; set; }
         public int? FavoriteUserAccountId { get; set; }
+        public bool IsHighlighted { get; set; }
+        public int? NumberOfRows { get; set; }
+        public string? Search { get; set; }
     }
 }

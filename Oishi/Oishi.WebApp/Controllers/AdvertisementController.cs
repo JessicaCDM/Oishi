@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Oishi.Shared.ViewModels.Advertisement;
+using Oishi.Shared.ViewModels.Category;
 using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
@@ -15,7 +16,7 @@ namespace Oishi.WebApp.Controllers
 			_OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
 		}
 
-		public async Task<IActionResult> Index(int? id)
+		public async Task<IActionResult> Index(int? id, string? searchString)
 		{
 			Shared.ViewModels.Advertisement.AdvertisementIndexViewModel model = new Shared.ViewModels.Advertisement.AdvertisementIndexViewModel();
 
@@ -38,7 +39,8 @@ namespace Oishi.WebApp.Controllers
 				Shared.ViewModels.Advertisement.AdvertisementSearchViewModel searchModel = new Shared.ViewModels.Advertisement.AdvertisementSearchViewModel()
 				{
 					FavoriteUserAccountId = userId,
-					SubCategoryId = id
+					SubCategoryId = id,
+					Search = searchString
 				};
 
 				apiResponse = await webAPIProvider.Post($"Advertisement/GetFiltered", searchModel);
@@ -56,25 +58,36 @@ namespace Oishi.WebApp.Controllers
 
 			throw new Exception();
 		}
-		public async Task<IActionResult> Product(int? id)
-		{
-			Shared.ViewModels.Advertisement.ProductViewModel model = new Shared.ViewModels.Advertisement.ProductViewModel();
 
-			Shared.ViewModels.Category.CategoryViewModel[] categories = null;
+        // GET Advertisement/Detail/5
+        public async Task<IActionResult> Detail(int id)
+		{
+			Shared.ViewModels.Advertisement.AdvertisementViewModel model = new Shared.ViewModels.Advertisement.AdvertisementViewModel();
+
 			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-			{
-				string? apiResponse = await webAPIProvider.Get($"Category/Get");
+            {
+                string? apiResponse;
+                // Get User ID if login is done
+                if (int.TryParse(User.FindFirstValue(ClaimTypes.NameIdentifier), out int userId))
+				{
+					apiResponse = await webAPIProvider.Get($"Advertisement/GetFirst?id={id}&favoriteUserAccountId={userId}");
+                }
+				else
+                {
+                    apiResponse = await webAPIProvider.Get($"Advertisement/GetFirst?id={id}");
+                }
+
 				if (apiResponse != null)
-					categories = JsonConvert.DeserializeObject<Shared.ViewModels.Category.CategoryViewModel[]>(apiResponse);
+                    model = JsonConvert.DeserializeObject<Shared.ViewModels.Advertisement.AdvertisementViewModel>(apiResponse);
 			}
-			if (categories != null)
+			if (model != null)
 			{
-				model.Categories = categories;
 				return View(model);
 			}
 
 			throw new Exception();
 		}
+
 		// GET Advertisement/Create
 		public async Task<IActionResult> Create()
 		{
@@ -121,7 +134,7 @@ namespace Oishi.WebApp.Controllers
             throw new Exception();
         }
 
-		// GET Advertisement/Edit?Id=123
+		// GET Advertisement/Edit/5
 
 		public async Task<IActionResult> Edit(int id)
 		{
@@ -141,7 +154,7 @@ namespace Oishi.WebApp.Controllers
 			return View("Edit", model);
 		}
 
-		// POST Advertisement/Update?Id=123
+		// POST Advertisement/Update
 		[HttpPost]
 		public async Task<IActionResult> Edit(CreateViewModel model)
 		{

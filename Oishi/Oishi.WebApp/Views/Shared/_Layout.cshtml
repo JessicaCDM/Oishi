@@ -86,16 +86,16 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                 </div>
                                 <div class="header-nav-features header-nav-features-no-border col-lg-5 col-xl-6 px-0 ms-0">
                                     <div class="header-nav-feature ps-lg-5 pe-lg-4">
-                                        <form role="search" action="page-search-results.html" method="get">
+                                        <form role="search" action="@Url.Action("Index", "Advertisement")" method="get">
                                             <div class="search-with-select">
                                                 <a href="#" class="mobile-search-toggle-btn me-2" data-toggle-class="open">
                                                     <i class="icons icon-magnifier text-color-dark text-color-hover-primary"></i>
                                                 </a>
                                                 <div class="search-form-wrapper input-group">
-                                                    <input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
+                                                    <input class="form-control text-1" id="headerSearch" name="searchString" type="search" value="@ViewData["searchString"]" placeholder="Search...">
                                                     <div class="search-form-select-wrapper">
-                                                        <div class="custom-select-1">
-                                                            <select name="category" class="form-control form-select">
+                                                        @*<div class="custom-select-1">
+                                                            <select name="id" class="form-control form-select">
                                                                 <option value="all" selected>All Categories</option>
                                                                 <option value="fashion">Fashion</option>
                                                                 <option value="electronics">Electronics</option>
@@ -103,7 +103,7 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                                                 <option value="motors">Motors</option>
                                                                 <option value="features">Features</option>
                                                             </select>
-                                                        </div>
+                                                        </div>*@
                                                         <button class="btn" type="submit" aria-label="Search">
                                                             <i class="icons icon-magnifier header-nav-top-icon text-color-dark"></i>
                                                         </button>
@@ -132,7 +132,13 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                                     </a>
                                                 </div>
                                             </li>
-
+                                            <li class="me-2 ms-2">
+                                                <div class="header-extra-info-icon">
+                                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Advertisement" asp-action="Create">
+                                                        <i class="icons icon-plus"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
                                             <li class="ms-0 ms-xl-4">
                                                 <div class="header-extra-info-icon">
                                                     <a class="text-decoration-none text-color-dark text-color-hover-primary text-2" asp-controller="Account" asp-action="Logout">
@@ -232,7 +238,7 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                 <a href="/home/help" class="d-block font-weight-normal line-height-1 text-color-light">Ajuda</a>
                             </li>
                             <li class="pb-1 mb-2">
-                                <a href="" class="d-block font-weight-normal line-height-1 text-color-light">App Oishi</a>
+                                <a href="/home/app" class="d-block font-weight-normal line-height-1 text-color-light">App Oishi</a>
                             </li>
                             <li class="pb-1 mb-2">
                                 <a href="/home/privacy" class="d-block font-weight-normal line-height-1 text-color-light">Política de Privacidade</a>
@@ -256,26 +262,14 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
-                        <h5 class="text-4 text-color-light mb-3">Principais Categorias</h5>
+                        <h5 class="text-4 text-color-light mb-3">Principais Subcategorias</h5>
                         <ul class="list list-unstyled list-inline mb-0">
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeans</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeasn</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">classic</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">black</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeans</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">black</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                            <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/3" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Preparação de Alimentos</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/4" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Pequeno Almoço</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/8" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Frigorífico e Arcas</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/7" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Fornos</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/9" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Catering</a></li>
+                            <li class="list-inline-item"><a href="/Advertisement/Index/14" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">Loiça</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-3">

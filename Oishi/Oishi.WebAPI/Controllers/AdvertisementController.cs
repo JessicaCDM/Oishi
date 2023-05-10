@@ -21,15 +21,15 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpPost]
-        public Data.Models.Advertisement[] GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
+        public Data.Models.Advertisement[] GetFiltered(AdvertisementSearchViewModel model)
         {
             return _advertisementProvider.GetFiltered(model).ToArray();
         }
 
         [HttpGet]
-        public Data.Models.Advertisement? GetFirst(int id)
+        public Data.Models.Advertisement? GetFirst(int id, int? favoriteUserAccountId)
         {
-            return _advertisementProvider.GetFirstById(id);
+            return _advertisementProvider.GetFirstById(id, favoriteUserAccountId);
         }
 
         [HttpPost]

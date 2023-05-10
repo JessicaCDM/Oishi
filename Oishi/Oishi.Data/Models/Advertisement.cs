@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Oishi.Data.Providers;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -33,6 +34,10 @@ namespace Oishi.Data.Models
         public int SubcategoryId { get; set; }
         [NotMapped]
         public string? SubcategoryDescription => Subcategory?.Description;
+        [NotMapped]
+        public int? ParentCategoryId => Subcategory?.CategoryId;
+        [NotMapped]
+        public string? ParentCategoryDescription => Subcategory?.Category?.Description;
 
 
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
