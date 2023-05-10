@@ -25,5 +25,8 @@ namespace Oishi.Shared.ViewModels.Advertisement
         public int UserAccountId { get; set; }
         public int MunicipalityOrCityId { get; set; }
         public int SubcategoryId { get; set; }
-    }
+
+        
+		public Oishi.Shared.ViewModels.Category.SubCategoryViewModel[]? Subcategories { get; set; }
+	}
 }

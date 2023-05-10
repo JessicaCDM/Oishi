@@ -89,29 +89,54 @@ namespace Oishi.WebApp.Controllers
 		}
 
 		// GET Advertisement/Create
-		public IActionResult Create()
+		public async Task<IActionResult> Create()
 		{
-			return View();
+			Shared.ViewModels.Advertisement.CreateViewModel model = new Shared.ViewModels.Advertisement.CreateViewModel();
+
+			Shared.ViewModels.Category.CategoryViewModel[] categories = null;
+			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+			{
+				string? apiResponse = await webAPIProvider.Get("Category/Get");
+				if (apiResponse != null)
+					categories = JsonConvert.DeserializeObject<Shared.ViewModels.Category.CategoryViewModel[]>(apiResponse);
+			}
+			if (categories != null)
+			{
+				model.Subcategories = categories.SelectMany(c => c.SubCategories).ToArray();
+				return View(model);
+			}
+			throw new Exception();
 		}
 
 		// POST Advertisement/Create
 		[HttpPost]
 		public async Task<IActionResult> Create(Shared.ViewModels.Advertisement.CreateViewModel model)
 		{
-			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            Shared.ViewModels.Category.CategoryViewModel[] categories = null;
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
 			{
 				string? response = await webAPIProvider.Post($"Advertisement/Insert", model);
 				System.Diagnostics.Debug.WriteLine(response);
+				if (ViewData != null)
+				{
+					ViewData["Success"] = "Anúncio criado com sucesso!";
+				}
 
-				ViewData["Success"] = "Anúncio criado com sucesso!";
-			}
+                string? apiResponse = await webAPIProvider.Get("Category/Get");
+                if (apiResponse != null)
+                    categories = JsonConvert.DeserializeObject<Shared.ViewModels.Category.CategoryViewModel[]>(apiResponse);
+            }
+            if (categories != null)
+            {
+                model.Subcategories = categories.SelectMany(c => c.SubCategories).ToArray();
+                return View(model);
+            }
+            throw new Exception();
+        }
 
-			return View();
-		}
+        // GET Advertisement/Edit?id=43
 
-		// GET Advertisement/Edit/5
-
-		public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int id)
 		{
 			Shared.ViewModels.Advertisement.CreateViewModel? model = null;
 			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
