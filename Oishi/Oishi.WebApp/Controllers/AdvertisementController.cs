@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Oishi.Shared.ViewModels.Advertisement;
 using System.Security.Claims;
 
 namespace Oishi.WebApp.Controllers
@@ -8,7 +9,11 @@ namespace Oishi.WebApp.Controllers
 	{
 		private string _OishiWebApiAddress;
 
-		public AdvertisementController(IConfiguration configuration)
+        public IActionResult Product()
+        {
+            return View();
+        }
+        public AdvertisementController(IConfiguration configuration)
 		{
 			_OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
 		}
@@ -89,26 +94,31 @@ namespace Oishi.WebApp.Controllers
 			}
 			ViewData["EditView"] = true;
 
-			if (model == null)
-			{
-				throw new Exception("Houve um erro");
-			}
-			return View("Create", model);
-		}
+            if (model == null)
+            {
+                throw new Exception("Houve um erro");
+            }
+            return View("Edit", model);
+        }
 
-		// POST Advertisement/Edit?Id=123
-		[HttpPost]
-		public async Task<IActionResult> Edit(Shared.ViewModels.Advertisement.CreateViewModel model)
-		{
-			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-			{
-				string? response = await webAPIProvider.Post($"Advertisement/Update", model);
-				System.Diagnostics.Debug.WriteLine(response);
+        // POST Advertisement/Update?Id=123
+        [HttpPost]
+        public async Task<IActionResult> Edit(CreateViewModel model)
+        {
+            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+            {
+                string? response = await webAPIProvider.Post($"Advertisement/Update", model);
+                System.Diagnostics.Debug.WriteLine(response);
 
-				ViewData["Success"] = "Anúncio editado com sucesso!";
-			}
-
-			return View();
-		}
-	}
+                if (response != null)
+                {
+                    ViewData["Success"] = "Anúncio editado com sucesso!";
+                }
+                else {
+                    throw new Exception("Erro!");
+                }
+            }
+            return View();
+        }
+    }
 }
