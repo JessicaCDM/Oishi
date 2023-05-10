@@ -42,6 +42,11 @@ namespace Oishi.Data.Providers
                 advertisements = advertisements.Where(x => x.SubcategoryId == model.SubCategoryId);
             }
 
+            if (!string.IsNullOrEmpty(model.Search))
+            {
+                advertisements = advertisements.Where(x => x.Title == model.Search);
+            }
+
             if (model.NumberOfRows.HasValue)
             {
                 advertisements = advertisements.Take(model.NumberOfRows.Value);

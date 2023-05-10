@@ -86,7 +86,7 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                 </div>
                                 <div class="header-nav-features header-nav-features-no-border col-lg-5 col-xl-6 px-0 ms-0">
                                     <div class="header-nav-feature ps-lg-5 pe-lg-4">
-                                        <form role="search" action="@Url.Action("Search", "Advertisement")" method="get">
+                                        <form role="search" action="@Url.Action("Index", "Advertisement")" method="get">
                                             <div class="search-with-select">
                                                 <a href="#" class="mobile-search-toggle-btn me-2" data-toggle-class="open">
                                                     <i class="icons icon-magnifier text-color-dark text-color-hover-primary"></i>
@@ -94,8 +94,8 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                                 <div class="search-form-wrapper input-group">
                                                     <input class="form-control text-1" id="headerSearch" name="searchString" type="search" value="@ViewData["searchString"]" placeholder="Search...">
                                                     <div class="search-form-select-wrapper">
-                                                        <div class="custom-select-1">
-                                                            <select name="category" class="form-control form-select">
+                                                        @*<div class="custom-select-1">
+                                                            <select name="id" class="form-control form-select">
                                                                 <option value="all" selected>All Categories</option>
                                                                 <option value="fashion">Fashion</option>
                                                                 <option value="electronics">Electronics</option>
@@ -103,7 +103,7 @@ backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-nega
                                                                 <option value="motors">Motors</option>
                                                                 <option value="features">Features</option>
                                                             </select>
-                                                        </div>
+                                                        </div>*@
                                                         <button class="btn" type="submit" aria-label="Search">
                                                             <i class="icons icon-magnifier header-nav-top-icon text-color-dark"></i>
                                                         </button>

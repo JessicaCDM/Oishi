@@ -19,7 +19,7 @@ namespace Oishi.WebApp.Controllers
 			_OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
 		}
 
-		public async Task<IActionResult> Index(int? id)
+		public async Task<IActionResult> Index(int? id, string? searchString)
 		{
 			Shared.ViewModels.Advertisement.AdvertisementIndexViewModel model = new Shared.ViewModels.Advertisement.AdvertisementIndexViewModel();
 
@@ -42,7 +42,8 @@ namespace Oishi.WebApp.Controllers
 				Shared.ViewModels.Advertisement.AdvertisementSearchViewModel searchModel = new Shared.ViewModels.Advertisement.AdvertisementSearchViewModel()
 				{
 					FavoriteUserAccountId = userId,
-					SubCategoryId = id
+					SubCategoryId = id,
+					Search = searchString
 				};
 
 				apiResponse = await webAPIProvider.Post($"Advertisement/GetFiltered", searchModel);
@@ -116,30 +117,5 @@ namespace Oishi.WebApp.Controllers
 
 			return View();
 		}
-
-		[HttpGet]
-		public async Task<IActionResult> Search(string searchString, string category)
-		{
-			using (Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-			{
-                string? response = await webAPIProvider.Get($"Advertisement/Get");
-				List<AdvertisementViewModel> advertisements = JsonConvert.DeserializeObject<List<AdvertisementViewModel>>(response);
-                
-				if (!string.IsNullOrEmpty(searchString))
-				{
-					advertisements = advertisements.Where(a => a.Title.Contains(searchString)).ToList();
-
-                    response = await webAPIProvider.Get($"Category/Get");
-                    List<CategoryViewModel> categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(response);
-
-                    if (category != "all")
-                    {
-                        categories = categories.Where(a => a.Description == category).ToList();
-                    }
-					return View("/Views/Advertisement/List.cshtml", advertisements);
-                }
-				return RedirectToAction("/Home/Index");
-            }
-        }
     }
 }
