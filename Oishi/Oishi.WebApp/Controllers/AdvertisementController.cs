@@ -9,11 +9,8 @@ namespace Oishi.WebApp.Controllers
 	{
 		private string _OishiWebApiAddress;
 
-        public IActionResult Product()
-        {
-            return View();
-        }
-        public AdvertisementController(IConfiguration configuration)
+
+		public AdvertisementController(IConfiguration configuration)
 		{
 			_OishiWebApiAddress = configuration.GetValue<string>("OishiWebApiAddress");
 		}
@@ -59,7 +56,25 @@ namespace Oishi.WebApp.Controllers
 
 			throw new Exception();
 		}
+		public async Task<IActionResult> Product(int? id)
+		{
+			Shared.ViewModels.Advertisement.ProductViewModel model = new Shared.ViewModels.Advertisement.ProductViewModel();
 
+			Shared.ViewModels.Category.CategoryViewModel[] categories = null;
+			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+			{
+				string? apiResponse = await webAPIProvider.Get($"Category/Get");
+				if (apiResponse != null)
+					categories = JsonConvert.DeserializeObject<Shared.ViewModels.Category.CategoryViewModel[]>(apiResponse);
+			}
+			if (categories != null)
+			{
+				model.Categories = categories;
+				return View(model);
+			}
+
+			throw new Exception();
+		}
 		// GET Advertisement/Create
 		public IActionResult Create()
 		{
@@ -94,31 +109,33 @@ namespace Oishi.WebApp.Controllers
 			}
 			ViewData["EditView"] = true;
 
-            if (model == null)
-            {
-                throw new Exception("Houve um erro");
-            }
-            return View("Edit", model);
-        }
+			if (model == null)
+			{
+				throw new Exception("Houve um erro");
+			}
+			return View("Edit", model);
+		}
 
-        // POST Advertisement/Update?Id=123
-        [HttpPost]
-        public async Task<IActionResult> Edit(CreateViewModel model)
-        {
-            using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
-            {
-                string? response = await webAPIProvider.Post($"Advertisement/Update", model);
-                System.Diagnostics.Debug.WriteLine(response);
+		// POST Advertisement/Update?Id=123
+		[HttpPost]
+		public async Task<IActionResult> Edit(CreateViewModel model)
+		{
+			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
+			{
+				string? response = await webAPIProvider.Post($"Advertisement/Update", model);
+				System.Diagnostics.Debug.WriteLine(response);
 
-                if (response != null)
-                {
-                    ViewData["Success"] = "Anúncio editado com sucesso!";
-                }
-                else {
-                    throw new Exception("Erro!");
-                }
-            }
-            return View();
-        }
-    }
+				if (response != null)
+				{
+					ViewData["Success"] = "Anúncio editado com sucesso!";
+				}
+				else
+				{
+					throw new Exception("Erro!");
+				}
+			}
+			return View();
+		}
+	}
 }
+
