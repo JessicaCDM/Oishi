@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Oishi.Data.Contexts;
+using Oishi.Data.Models;
 
 namespace Oishi.Data.Providers
 {
@@ -23,7 +24,7 @@ namespace Oishi.Data.Providers
         public List<Models.Advertisement> GetFiltered(Shared.ViewModels.Advertisement.AdvertisementSearchViewModel model)
         {
             IQueryable<Models.Advertisement> advertisements = _db.Advertisements
-                .Include(x => x.Subcategory)
+                .Include(x => x.Subcategory).ThenInclude(x => x.Category)
                 .Include(x => x.MunicipalityOrCity);
 
 
@@ -58,6 +59,20 @@ namespace Oishi.Data.Providers
         public Models.Advertisement? GetFirstById(int id)
         {
             return _db.Advertisements.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Models.Advertisement? GetFirstById(int id, int? favoriteUserAccountId)
+        {
+            IQueryable<Models.Advertisement> advertisements = _db.Advertisements
+                .Include(x => x.Subcategory).ThenInclude(x => x.Category)
+                .Include(x => x.MunicipalityOrCity);
+
+            if (favoriteUserAccountId.HasValue)
+            {
+                advertisements = advertisements.Include(x => x.Favorites.Where(x => x.UserAccountId == favoriteUserAccountId));
+            }
+
+            return advertisements.FirstOrDefault(x => x.Id == id);
         }
 
         public Models.Advertisement Insert(Models.Advertisement item)

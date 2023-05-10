@@ -1,0 +1,149 @@
+@using System.Security.Claims
+@model Oishi.Shared.ViewModels.Advertisement.AdvertisementViewModel
+
+<div role="main" class="main shop pt-4">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <ul class="breadcrumb breadcrumb-style-2 d-block text-4 mb-4">
+                    <li><a href="/Home" class="text-color-default text-color-hover-primary text-decoration-none">Home</a></li>
+                    <li><a class="text-color-default text-color-hover-primary text-decoration-none">@Model.ParentCategoryDescription</a></li>
+                    <li><a href="/Advertisement/Index/@(Model.SubcategoryId)" class="text-color-default text-color-hover-primary text-decoration-none">@Model.SubCategoryDescription</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 mb-5 mb-md-0">
+
+                <div class="thumb-gallery-wrapper">
+                    <div class="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
+                        <div>
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg" data-zoom-image="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div>
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg" data-zoom-image="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div>
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg" data-zoom-image="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div>
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg" data-zoom-image="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div>
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg" data-zoom-image="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                    </div>
+                    <div class="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
+                        <div class="cur-pointer">
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div class="cur-pointer">
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div class="cur-pointer">
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div class="cur-pointer">
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                        <div class="cur-pointer">
+                            <img alt="" class="img-fluid" src="https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-7.jpg">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+
+                <div class="summary entry-summary position-relative">
+
+                    <h1 class="mb-0 font-weight-bold text-7">@Model.Title</h1>
+
+                    <div class="divider divider-small">
+                        <hr class="bg-color-grey-scale-4">
+                    </div>
+
+                    <p class="price mb-3">
+                        <span class="sale text-color-dark">@Model.Price €</span>
+                        @*<span class="amount">$22,00</span>*@
+                    </p>
+
+                    <p class="text-3-5 mb-3">
+                        @{
+                            string shortDescription = "";
+                            if (Model.Description.Length > 150)
+                            {
+                                shortDescription = Model.Description.Substring(0, 150) + "...";
+                            }
+                            else
+                            {
+                                shortDescription = Model.Description;
+                            }
+                        }
+                        @shortDescription
+                    </p>
+
+                    <div class="d-flex align-items-center">
+                        <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
+                            <!-- Facebook -->
+                            <li class="social-icons-facebook">
+                                <a href="http://www.facebook.com/sharer.php?u=http://www.oishikitchen.pt/Advertisement/Detail/@Model.Id" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <!-- Google+ -->
+                            <li class="social-icons-googleplus">
+                                <a href="https://plus.google.com/share?url=http://www.oishikitchen.pt/Advertisement/Detail/@Model.Id" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Google+">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <!-- Twitter -->
+                            <li class="social-icons-twitter">
+                                <a href="https://twitter.com/share?url=http://www.oishikitchen.pt/Advertisement/Detail/@Model.Id&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <!-- Email -->
+                            <li class="social-icons-email">
+                                <a href="mailto:?Subject=Share This Page&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.oishikitchen.pt/Advertisement/Detail/@Model.Id" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share By Email">
+                                    <i class="far fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- ADD TO FAVOURITES -->
+                        @if (User.Claims.Any(x => x.Type == ClaimTypes.NameIdentifier))
+                        {
+                            <a onclick="javascript:ToggleFavorite(@(Model.Id))" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2" style="cursor:pointer;">
+                                <i id="advertisement@(Model.Id)favicon" class="@(Model.Favorites.Any() ? "fa-solid" : "far") fa-heart me-1" style="color:red;"></i> ADICIONAR AOS FAVORITOS
+                            </a>
+                        }                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col">
+            <div id="description" class="tabs tabs-simple tabs-simple-full-width-line tabs-product tabs-dark mb-2">
+                <ul class="nav nav-tabs justify-content-start">
+                    <li class="nav-item"><a class="nav-link active font-weight-bold text-3 text-uppercase py-2 px-3" href="#productDescription" data-bs-toggle="tab">Descrição</a></li>
+                </ul>
+                <div class="tab-content p-0">
+                    <div class="tab-pane px-0 py-3 active" id="productDescription">
+                        <p>@Model.Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script src="/lib/elevatezoom/jquery.elevatezoom.min.js"></script>
+    <!-- Examples -->
+    <script src="/js/examples.gallery.js"></script>
+    <script src="/js/views/advertisement/index.js"></script>
+}

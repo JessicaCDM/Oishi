@@ -27,9 +27,9 @@ namespace Oishi.WebAPI.Controllers
         }
 
         [HttpGet]
-        public Data.Models.Advertisement? GetFirst(int id)
+        public Data.Models.Advertisement? GetFirst(int id, int? favoriteUserAccountId)
         {
-            return _advertisementProvider.GetFirstById(id);
+            return _advertisementProvider.GetFirstById(id, favoriteUserAccountId);
         }
 
         [HttpPost]

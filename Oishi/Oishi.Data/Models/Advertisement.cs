@@ -34,6 +34,10 @@ namespace Oishi.Data.Models
         public int SubcategoryId { get; set; }
         [NotMapped]
         public string? SubcategoryDescription => Subcategory?.Description;
+        [NotMapped]
+        public int? ParentCategoryId => Subcategory?.CategoryId;
+        [NotMapped]
+        public string? ParentCategoryDescription => Subcategory?.Category?.Description;
 
 
         public ICollection<AdvertisementHighlight>? AdvertisementHighlights { get; set; }
