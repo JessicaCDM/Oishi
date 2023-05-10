@@ -134,9 +134,9 @@ namespace Oishi.WebApp.Controllers
             throw new Exception();
         }
 
-		// GET Advertisement/Edit/5
+        // GET Advertisement/Edit?id=43
 
-		public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int id)
 		{
 			Shared.ViewModels.Advertisement.CreateViewModel? model = null;
 			using (Oishi.Shared.Providers.WebAPIProvider webAPIProvider = new Shared.Providers.WebAPIProvider(_OishiWebApiAddress))
