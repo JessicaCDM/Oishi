@@ -45,7 +45,7 @@ namespace Oishi.Data.Providers
 
             if (!string.IsNullOrEmpty(model.Search))
             {
-                advertisements = advertisements.Where(x => x.Title == model.Search);
+                advertisements = advertisements.Where(x => x.Title.Contains(model.Search));
             }
 
             if (model.NumberOfRows.HasValue)
