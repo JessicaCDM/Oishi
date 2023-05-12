@@ -23,8 +23,8 @@ namespace Oishi.WebApp.Administration
             }
             ).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, (options) =>
             {
-                options.LoginPath = "/Account/Login";
-                options.LogoutPath = "/Account/Logout";
+                options.LoginPath = "/UserAccounts/Login";
+                options.LogoutPath = "/UserAccounts/Logout";
                 options.ExpireTimeSpan = TimeSpan.FromHours(8);
             }
             );
@@ -47,6 +47,7 @@ namespace Oishi.WebApp.Administration
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Oishi.Data.Contexts;
 
 namespace Oishi.WebApp.Administration.Controllers
 {
+    [Authorize]
     public class AdvertisementsController : Controller
     {
         private readonly DatabaseContext _context;
